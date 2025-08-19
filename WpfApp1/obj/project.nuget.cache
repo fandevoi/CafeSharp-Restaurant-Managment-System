@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kpE3YEAW0to=",
+  "dgSpecHash": "e/qZNB1P3vw=",
   "success": true,
-  "projectFilePath": "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "projectFilePath": "C:\\Users\\CyfralixPC\\Desktop\\CLR\\WpfApp1\\WpfApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\blurrycontrols\\1.0.24\\blurrycontrols.1.0.24.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
@@ -21,7 +21,7 @@
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\materialdesigncolors\\3.1.0\\materialdesigncolors.3.1.0.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\materialdesignthemes\\5.1.0\\materialdesignthemes.5.1.0.nupkg.sha512",
-    "C:\\Users\\CyfralixPC\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "C:\\Users\\CyfralixPC\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.8\\microsoft.bcl.asyncinterfaces.9.0.8.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
@@ -42,7 +42,7 @@
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\sharpvectors\\1.8.4.2\\sharpvectors.1.8.4.2.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\sixlabors.fonts\\1.0.0-beta17\\sixlabors.fonts.1.0.0-beta17.nupkg.sha512",
-    "C:\\Users\\CyfralixPC\\.nuget\\packages\\sixlabors.imagesharp\\3.1.10\\sixlabors.imagesharp.3.1.10.nupkg.sha512",
+    "C:\\Users\\CyfralixPC\\.nuget\\packages\\sixlabors.imagesharp\\3.1.11\\sixlabors.imagesharp.3.1.11.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\CyfralixPC\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
@@ -75,26 +75,10 @@
     {
       "code": "NU1605",
       "level": "Warning",
-      "message": "Обнаружено понижение версии пакета Microsoft.Bcl.AsyncInterfaces с 8.0.0 на 5.0.0. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n WpfApp1 -> PDFsharp 6.2.0 -> Microsoft.Extensions.Logging 8.0.1 -> Microsoft.Bcl.AsyncInterfaces (>= 8.0.0) \r\n WpfApp1 -> Microsoft.Bcl.AsyncInterfaces (>= 5.0.0)",
-      "projectPath": "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-      "libraryId": "Microsoft.Bcl.AsyncInterfaces",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.7.2",
-        ".NETFramework,Version=v4.7.2/win",
-        ".NETFramework,Version=v4.7.2/win-arm64",
-        ".NETFramework,Version=v4.7.2/win-x64",
-        ".NETFramework,Version=v4.7.2/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
       "message": "Обнаружено понижение версии пакета System.Diagnostics.DiagnosticSource с 8.0.1 на 7.0.2. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n WpfApp1 -> PDFsharp 6.2.0 -> Microsoft.Extensions.Logging 8.0.1 -> System.Diagnostics.DiagnosticSource (>= 8.0.1) \r\n WpfApp1 -> System.Diagnostics.DiagnosticSource (>= 7.0.2)",
-      "projectPath": "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "projectPath": "C:\\Users\\CyfralixPC\\Desktop\\CLR\\WpfApp1\\WpfApp1.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "filePath": "C:\\Users\\CyfralixPC\\Desktop\\CLR\\WpfApp1\\WpfApp1.csproj",
       "libraryId": "System.Diagnostics.DiagnosticSource",
       "targetGraphs": [
         ".NETFramework,Version=v4.7.2",

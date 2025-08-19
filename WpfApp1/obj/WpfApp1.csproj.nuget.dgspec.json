@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
+    "C:\\Users\\CyfralixPC\\Desktop\\CLR\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
+    "C:\\Users\\CyfralixPC\\Desktop\\CLR\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "C:\\Users\\CyfralixPC\\Desktop\\CLR\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectPath": "C:\\Users\\CyfralixPC\\Desktop\\CLR\\WpfApp1\\WpfApp1.csproj",
         "packagesPath": "C:\\Users\\CyfralixPC\\.nuget\\packages\\",
-        "outputPath": "D:\\FlashExport\\Флешка\\01.03.2025 Бэкапы\\Мой диплом\\WpfApp1\\WpfApp1\\obj\\",
+        "outputPath": "C:\\Users\\CyfralixPC\\Desktop\\CLR\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -102,7 +102,7 @@
             },
             "Microsoft.Bcl.AsyncInterfaces": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.ReportViewer.WinForms": {
               "target": "Package",
@@ -154,7 +154,7 @@
             },
             "SixLabors.ImageSharp": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[3.1.11, )"
             },
             "System.Buffers": {
               "target": "Package",
