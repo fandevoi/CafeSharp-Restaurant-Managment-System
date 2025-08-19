@@ -1,0 +1,100 @@
+﻿<Window
+    x:Class="WpfApp1.MainLoginWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp1"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Cafe# Авторизация"
+    Width="600"
+    Height="450" WindowStartupLocation="CenterScreen"
+    ResizeMode="NoResize"
+    mc:Ignorable="d">
+    <Grid>
+        <Border
+            Width="400"
+            Height="300"
+            Style="{StaticResource whiteBorder}">
+            <Border.Effect>
+                <DropShadowEffect
+                    BlurRadius="17"
+                    Opacity="0.5"
+                    ShadowDepth="3"
+                    Color="#FFE4E4E4" />
+
+            </Border.Effect>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1.2*" />
+                    <RowDefinition Height="1.3*" />
+                    <RowDefinition Height="8*" />
+                </Grid.RowDefinitions>
+
+                <TextBlock
+                    Grid.Row="0"
+                    HorizontalAlignment="Center"
+                    FontSize="20"
+                    Style="{StaticResource menuText}"
+                    Text="Авторизация Cafe#" />
+                <TextBlock
+                    Grid.Row="1"
+                    Margin="0"
+                    HorizontalAlignment="Center"
+                    FontSize="16"
+                    Foreground="#FF9C9C9C"
+                    Style="{StaticResource menuText}"
+                    Text="Добро пожаловать!" />
+                <StackPanel Grid.Row="2" Orientation="Vertical">
+                    <Button
+                        Width="300" Name="AdminButton"
+                        Height="33"
+                        Margin="0,20,0,0"
+                        Cursor="Hand"
+                        Style="{StaticResource loginButton}" Click="AdminButton_Click">
+                        <TextBlock
+                            Margin="10,0,10,0"
+                            Style="{StaticResource menuButtonText}"
+                            Text="Войти как администратор"
+                            TextAlignment="Center" />
+                    </Button>
+                    <Button
+                        Width="300" Name="GarconButton"
+                        Height="33"
+                        Margin="0,10,0,0"
+                        Cursor="Hand"
+                        Style="{StaticResource loginButton}" Click="GarconButton_Click">
+                        <TextBlock
+                            Margin="10,0,10,0"
+                            Style="{StaticResource menuButtonText}"
+                            Text="Войти как официант"
+                            TextAlignment="Center" />
+                    </Button>
+                    <Button
+                        Width="300"
+                        Height="33" Name="CookButton"
+                        Margin="0,10,0,0"
+                        Cursor="Hand"
+                        Style="{StaticResource loginButton}" Click="CookButton_Click">
+                        <TextBlock
+                            Margin="10,0,10,0"
+                            Style="{StaticResource menuButtonText}"
+                            Text="Войти как повар"
+                            TextAlignment="Center" />
+                    </Button>
+                    <Button
+    Width="300"
+    Height="33" Name="BarButton"
+    Margin="0,10,0,0"
+    Cursor="Hand"
+    Style="{StaticResource loginButton}" Click="BarButton_Click" >
+                        <TextBlock
+        Margin="10,0,10,0"
+        Style="{StaticResource menuButtonText}"
+        Text="Войти как бармен"
+        TextAlignment="Center" />
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

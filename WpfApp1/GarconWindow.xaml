@@ -1,0 +1,2823 @@
+﻿<Window
+    x:Class="WpfApp1.GarconWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:controls="clr-namespace:BlurryControls.Controls;assembly=BlurryControls"
+    xmlns:converters="clr-namespace:WpfApp1.Services.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:local="clr-namespace:WpfApp1"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:uc="clr-namespace:Sales_Dashboard.UserControls"
+    Title="Cafe# Официанты"
+    Width="1920"
+    Height="1080"
+    Background="Transparent"
+    ResizeMode="CanResizeWithGrip"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+        <Grid x:Name="OuterBlurContainer">
+            <Grid x:Name="InnerBlurContainer">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/3968e6ce6271b21e633a5e6951295e61.jpg" />
+                </Grid.Background>
+            </Grid>
+        </Grid>
+
+        <TabControl Name="TabFather">
+            <TabControl.ItemContainerStyle>
+                <Style TargetType="{x:Type TabItem}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                </Style>
+            </TabControl.ItemContainerStyle>
+            <TabItem
+                Name="DishesSelectorTab"
+                Visibility="Collapsed">
+                <Grid Margin="0,0,0,-22">
+
+
+                    <Grid Name="PaymentTab" Visibility="Collapsed">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <controls:BlurryUserControl
+                            Grid.Column="0"
+                            Margin="20,20,5,40"
+                            Padding="0"
+                            Panel.ZIndex="100"
+                            Background="Transparent"
+                            BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                            BlurRadius="55"
+                            BorderBrush="#AF484848"
+                            BorderThickness="3"
+                            DragMoveEnabled="True"
+                            Magnification="0.25"
+                            Visibility="Visible">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="18*" />
+                                </Grid.RowDefinitions>
+                                <Border
+                                    Grid.Row="0"
+                                    Width="50"
+                                    Margin="10,5,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Top"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Height="48"
+                                        Padding="0"
+                                        Background="{x:Null}"
+                                        BorderBrush="{x:Null}"
+                                        Click="BackToMenuButton_Click"
+                                        Foreground="White">
+                                        <Grid>
+                                            <Icon:PackIconMaterial
+                                                Width="25"
+                                                Height="25"
+                                                Margin="0"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Kind="ArrowLeft"
+                                                Style="{StaticResource menuButtonIcon}" />
+                                        </Grid>
+                                    </Button>
+
+                                </Border>
+                                <Border
+                                    Grid.Column="1"
+                                    Margin="65,5,10,0"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Grid>
+                                        <TextBlock
+                                            Name="OrderInfoTextBlock"
+                                            Margin="10,0,0,0"
+                                            HorizontalAlignment="Left"
+                                            VerticalAlignment="Center"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="25"
+                                            FontWeight="Bold"
+                                            Text=" "
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                    </Grid>
+                                </Border>
+                                <ListView
+                                    x:Name="GuestsListView"
+                                    Grid.Row="1"
+                                    Margin="10,3,10,10"
+                                    BorderThickness="0"
+                                    ScrollViewer.VerticalScrollBarVisibility="Auto">
+
+                                    <ListView.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <StackPanel Orientation="Vertical" />
+                                        </ItemsPanelTemplate>
+                                    </ListView.ItemsPanel>
+                                    <ListView.ItemContainerStyle>
+                                        <Style TargetType="ListViewItem">
+                                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                        </Style>
+                                    </ListView.ItemContainerStyle>
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border
+                                                Height="auto"
+                                                Margin="0,5,0,0"
+                                                Padding="10"
+                                                HorizontalAlignment="Stretch"
+                                                Background="#B6000000"
+                                                BorderThickness="1"
+                                                CornerRadius="15">
+                                                <StackPanel Margin="5" Orientation="Vertical">
+                                                    <TextBlock
+                                                        FontFamily="Fonts/#Inter Bold"
+                                                        FontSize="18"
+                                                        FontWeight="Bold"
+                                                        Foreground="White"
+                                                        Text="{Binding GuestNumber, StringFormat={}Гость {0}}" />
+                                                    <TextBlock
+                                                        Margin="0,-20,0,0"
+                                                        HorizontalAlignment="Right"
+                                                        FontFamily="Fonts/#Inter Bold"
+                                                        FontSize="18"
+                                                        FontWeight="Bold"
+                                                        Foreground="White"
+                                                        Text="{Binding TotalPrice, StringFormat={}{0} ₽}" />
+                                                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                                        <ItemsControl ItemsSource="{Binding Dishes}">
+                                                            <ItemsControl.ItemTemplate>
+                                                                <DataTemplate>
+                                                                    <StackPanel Margin="0,5" Orientation="Vertical">
+                                                                        <!--  Блюдо  -->
+                                                                        <StackPanel Orientation="Horizontal">
+                                                                            <TextBlock
+                                                                                Width="180"
+                                                                                FontFamily="Fonts/#Inter Regular"
+                                                                                Foreground="White"
+                                                                                Text="{Binding DishName}" />
+                                                                            <TextBlock
+                                                                                Width="70"
+                                                                                FontFamily="Fonts/#Inter Regular"
+                                                                                Foreground="White"
+                                                                                Text="{Binding Count, StringFormat={}{0} шт}" />
+                                                                            <TextBlock
+                                                                                Width="70"
+                                                                                FontFamily="Fonts/#Inter Regular"
+                                                                                Foreground="White"
+                                                                                Text="{Binding DishPrice, StringFormat={}{0} ₽}" />
+                                                                        </StackPanel>
+
+                                                                        <!--  Опции блюда  -->
+                                                                        <ItemsControl ItemsSource="{Binding SelectedOptions}">
+                                                                            <ItemsControl.ItemTemplate>
+                                                                                <DataTemplate>
+                                                                                    <TextBlock
+                                                                                        Margin="20,0,0,0"
+                                                                                        FontFamily="Fonts/#Inter Regular"
+                                                                                        FontSize="14"
+                                                                                        FontStyle="Italic"
+                                                                                        Foreground="LightGray"
+                                                                                        Text="{Binding OptionName, StringFormat=• {0}}" />
+                                                                                </DataTemplate>
+                                                                            </ItemsControl.ItemTemplate>
+                                                                        </ItemsControl>
+                                                                    </StackPanel>
+                                                                </DataTemplate>
+                                                            </ItemsControl.ItemTemplate>
+                                                        </ItemsControl>
+
+                                                    </ScrollViewer>
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </Grid>
+                        </controls:BlurryUserControl>
+                        <controls:BlurryUserControl
+                            Grid.Column="1"
+                            Margin="5,20,20,40"
+                            Padding="0"
+                            Panel.ZIndex="100"
+                            Background="Transparent"
+                            BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                            BlurRadius="55"
+                            BorderBrush="#AF484848"
+                            BorderThickness="3"
+                            DragMoveEnabled="True"
+                            Magnification="0.25"
+                            Visibility="Visible">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="18*" />
+                                </Grid.RowDefinitions>
+                                <Border
+                                    Grid.Column="1"
+                                    Margin="10,5,10,0"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Grid>
+                                        <TextBlock
+                                            Name="PaymentTotalPrice"
+                                            Margin="10,0,0,0"
+                                            HorizontalAlignment="Left"
+                                            VerticalAlignment="Center"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="30"
+                                            FontWeight="Bold"
+                                            Text="Итого к оплате"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                        <!--<TextBlock
+                                            Margin="0,0,90,0"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Center"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="25"
+                                            FontWeight="Bold"
+                                            Text="50/50"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                        <Border
+                                            Width="60"
+                                            Height="28"
+                                            Margin="0,0,20,0"
+                                            Padding="0"
+                                            HorizontalAlignment="Right"
+                                            CornerRadius="15">
+                                            <Border.Background>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="1" Color="#FFB1B1B1" />
+                                                </LinearGradientBrush>
+                                            </Border.Background>
+                                            <ToggleButton
+                                                Width="45"
+                                                HorizontalAlignment="Center"
+                                                Checked="ShowOthersToggle_Checked"
+                                                IsChecked="False"
+                                                Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                                Unchecked="ShowOthersToggle_Unchecked" />
+                                        </Border>-->
+                                    </Grid>
+
+
+                                </Border>
+                                <Border
+                                    Grid.Row="1"
+                                    Margin="10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <StackPanel Grid.Row="1">
+                                        <TextBlock
+                                            Margin="10"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="40"
+                                            FontWeight="Bold"
+                                            Text="Выберите способ оплаты"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                        <Button
+                                            Name="PayWithCardButton"
+                                            Width="500"
+                                            Height="70"
+                                            Margin="0,30,0,10"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Bottom"
+                                            Click="PayWithCardButton_Click"
+                                            Style="{StaticResource paymentCardButton}">
+                                            <Grid>
+                                                <TextBlock
+                                                    Margin="0,0,20,0"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    FontSize="35"
+                                                    Style="{StaticResource menuButtonText}"
+                                                    Text="Картой" />
+                                                <Icon:PackIconMaterial
+                                                    Width="35"
+                                                    Height="35"
+                                                    Margin="0,0,150,0"
+                                                    HorizontalAlignment="Right"
+                                                    VerticalAlignment="Center"
+                                                    Kind="CreditCard"
+                                                    Style="{StaticResource menuButtonIcon}" />
+                                            </Grid>
+                                        </Button>
+                                        <Button
+                                            Name="PayWithCashButton"
+                                            Width="500"
+                                            Height="70"
+                                            Margin="0,0,0,10"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Bottom"
+                                            Click="PayWithCashButton_Click"
+                                            Style="{StaticResource paymentCashButton}">
+                                            <Grid>
+                                                <TextBlock
+                                                    Margin="0,0,25,0"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    FontSize="35"
+                                                    Style="{StaticResource menuButtonText}"
+                                                    Text="Наличными" />
+                                                <Icon:PackIconMaterial
+                                                    Width="35"
+                                                    Height="35"
+                                                    Margin="0,0,120,0"
+                                                    HorizontalAlignment="Right"
+                                                    VerticalAlignment="Center"
+                                                    Kind="CashRegister"
+                                                    Style="{StaticResource menuButtonIcon}" />
+                                            </Grid>
+                                        </Button>
+                                        <Button
+                                            Name="PayWithSBPButton"
+                                            Width="500"
+                                            Height="70"
+                                            Margin="0,0,0,10"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Bottom"
+                                            Click="PayWithSBPButton_Click"
+                                            Style="{StaticResource paymentSbpButton}">
+                                            <Grid>
+                                                <TextBlock
+                                                    Margin="0,0,20,0"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    FontSize="35"
+                                                    Style="{StaticResource menuButtonText}"
+                                                    Text="СБП" />
+                                                <Icon:PackIconMaterial
+                                                    Width="30"
+                                                    Height="30"
+                                                    Margin="0,0,183,0"
+                                                    HorizontalAlignment="Right"
+                                                    VerticalAlignment="Center"
+                                                    Kind="Qrcode"
+                                                    Style="{StaticResource menuButtonIcon}" />
+                                            </Grid>
+                                        </Button>
+
+                                    </StackPanel>
+                                </Border>
+
+                            </Grid>
+                        </controls:BlurryUserControl>
+
+                    </Grid>
+                    <Border
+                        Name="PaymentWait"
+                        Width="700"
+                        Height="500"
+                        Padding="0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="#E5000000"
+                        CornerRadius="20"
+                        Style="{StaticResource blackBorder}"
+                        Visibility="Collapsed">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="4*" />
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock
+                                Margin="10"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Top"
+                                FontFamily="Segoe UI"
+                                FontSize="40"
+                                FontWeight="Bold"
+                                Text="Ожидание оплаты"
+                                TextAlignment="Center">
+                                <TextBlock.Foreground>
+                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                        <GradientStop Color="White" />
+                                        <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                    </LinearGradientBrush>
+                                </TextBlock.Foreground>
+                            </TextBlock>
+                            <Grid Grid.Row="1">
+                                <Icon:PackIconMaterial
+                                    Width="192"
+                                    Height="150"
+                                    Margin="0,42,0,0"
+                                    HorizontalAlignment="Center"
+                                    Kind="ContactlessPayment">
+                                    <Icon:PackIconMaterial.Foreground>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="White" />
+                                            <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                        </LinearGradientBrush>
+                                    </Icon:PackIconMaterial.Foreground>
+                                </Icon:PackIconMaterial>
+                                <UniformGrid
+                                    x:Name="DotGrid"
+                                    Margin="0,100,0,0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Columns="10"
+                                    Rows="1">
+                                    <!--  Десять точек  -->
+                                    <Ellipse
+                                        Name="Dot0"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot1"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot2"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot3"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot4"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot5"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot6"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot7"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot8"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                    <Ellipse
+                                        Name="Dot9"
+                                        Width="10"
+                                        Height="10"
+                                        Margin="4"
+                                        Fill="White"
+                                        Opacity="0.2" />
+                                </UniformGrid>
+                            </Grid>
+                            <Button
+                                Name="CancelPaymentButton"
+                                Grid.Row="2"
+                                Width="200"
+                                Height="60"
+                                Margin="40,0,0,10"
+                                Padding="0"
+                                HorizontalAlignment="Left"
+                                Background="#99B94A16"
+                                BorderBrush="{x:Null}"
+                                Click="CancelPaymentButton_Click"
+                                Foreground="White"
+                                Style="{StaticResource garconAddGuestButton}">
+                                <TextBlock
+                                    Margin="0,-3,0,0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    FontSize="30"
+                                    FontWeight="Bold"
+                                    Text="Отменить"
+                                    TextAlignment="Center">
+                                    <TextBlock.Foreground>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="White" />
+                                            <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                        </LinearGradientBrush>
+                                    </TextBlock.Foreground>
+                                </TextBlock>
+                            </Button>
+                            <Button
+                                Name="PaymentSuccesfulButton"
+                                Grid.Row="2"
+                                Width="200"
+                                Height="60"
+                                Margin="0,0,40,10"
+                                Padding="0"
+                                HorizontalAlignment="Right"
+                                Background="#9931B916"
+                                BorderBrush="{x:Null}"
+                                Click="PaymentSuccesfulButton_Click"
+                                Foreground="White"
+                                Style="{StaticResource garconAddGuestButton}">
+                                <TextBlock
+                                    Margin="0,-3,0,0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    FontSize="30"
+                                    FontWeight="Bold"
+                                    Text="Оплачено"
+                                    TextAlignment="Center">
+                                    <TextBlock.Foreground>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="White" />
+                                            <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                        </LinearGradientBrush>
+                                    </TextBlock.Foreground>
+                                </TextBlock>
+                            </Button>
+                        </Grid>
+                    </Border>
+                    <controls:BlurryUserControl
+                        Name="DishCountGrid"
+                        Grid.Column="2"
+                        Margin="-20"
+                        Padding="0"
+                        Panel.ZIndex="100"
+                        Background="Transparent"
+                        BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                        BlurRadius="55"
+                        BorderBrush="#AF484848"
+                        BorderThickness="3"
+                        DragMoveEnabled="True"
+                        Magnification="0.25"
+                        Visibility="Hidden">
+                        <Grid>
+                            <Border
+                                Width="1200"
+                                Height="421"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Background="#B6000000"
+                                Style="{StaticResource whiteBorder}">
+                                <StackPanel>
+                                    <TextBlock
+                                        Margin="0,00,0,10"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Top"
+                                        FontSize="40"
+                                        Foreground="White"
+                                        Style="{StaticResource menuText}"
+                                        Text="Выберите количество порций" />
+                                    <TextBox
+                                        x:Name="countTextBox"
+                                        Width="594"
+                                        Height="60"
+                                        HorizontalAlignment="Center"
+                                        Background="Black"
+                                        BorderBrush="Black"
+                                        FontFamily="Fonts/#Inter Regular"
+                                        FontSize="40"
+                                        Foreground="White"
+                                        PreviewKeyDown="InputTextBox_PreviewKeyDown"
+                                        PreviewTextInput="InputTextBox_PreviewTextInput"
+                                        Style="{StaticResource roundedTextBox}"
+                                        TextAlignment="Center"
+                                        TextChanged="InputTextBox_TextChanged" />
+                                    <Button
+                                        Name="clearDishCount"
+                                        Width="60"
+                                        Height="60"
+                                        Margin="670,-60,0,10"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Click="clearDishCount_Click"
+                                        Style="{StaticResource garconDeleteGuestButton}">
+                                        <Grid Width="60" HorizontalAlignment="Left">
+                                            <Icon:PackIconMaterial
+                                                Width="45"
+                                                Height="45"
+                                                Margin="0,0,0,0"
+                                                HorizontalAlignment="Center"
+                                                Kind="KeyboardBackspace"
+                                                Style="{StaticResource menuButtonIcon}" />
+                                        </Grid>
+                                    </Button>
+                                    <Button
+                                        Name="dishCountNextButton"
+                                        Width="594"
+                                        Height="70"
+                                        Margin="0,0,0,10"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Bottom"
+                                        Click="dishCountNextButton_Click"
+                                        Style="{StaticResource garconGreenButton}">
+                                        <Grid>
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                FontSize="40"
+                                                Style="{StaticResource menuButtonText}"
+                                                Text="Далее" />
+                                        </Grid>
+                                    </Button>
+                                    <StackPanel
+                                        Margin="30"
+                                        HorizontalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="0"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="1"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="2"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="3"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="4"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="5"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="6"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="7"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="8"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+                                        <Button
+                                            Margin="5"
+                                            Click="NumberButton_Click"
+                                            Content="9"
+                                            FontFamily="Inter"
+                                            FontSize="45"
+                                            Style="{StaticResource CircularButtonStyle}" />
+
+                                    </StackPanel>
+                                </StackPanel>
+
+
+                            </Border>
+                        </Grid>
+                    </controls:BlurryUserControl>
+                    <Grid x:Name="OrderGrid" Visibility="Visible">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="489" />
+                            <ColumnDefinition Width="987" />
+                            <ColumnDefinition Width="396" />
+                        </Grid.ColumnDefinitions>
+                        <controls:BlurryUserControl
+                            Grid.Column="2"
+                            Margin="0,20,-33,40"
+                            Padding="0"
+                            Panel.ZIndex="100"
+                            Background="Transparent"
+                            BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                            BlurRadius="55"
+                            BorderBrush="#AF484848"
+                            BorderThickness="3"
+                            DragMoveEnabled="True"
+                            Magnification="0.25">
+                            <Grid Grid.Column="2" VerticalAlignment="Stretch">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0.6*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50*" />
+                                    <ColumnDefinition Width="50*" />
+                                </Grid.ColumnDefinitions>
+
+
+                                <Border
+                                    Grid.Row="0"
+                                    Grid.ColumnSpan="2"
+                                    Height="79"
+                                    Margin="17,0,17,0"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Всё">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="39"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Всё"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+
+                                <Border
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    MinWidth="110"
+                                    MinHeight="90"
+                                    Margin="5,0,17,10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Алкоголь">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Алкоголь"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+
+                                <Border
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    MinWidth="110"
+                                    MinHeight="90"
+                                    Margin="5,0,17,10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Напитки">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Напитки"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+                                <Border
+                                    Grid.Row="3"
+                                    Grid.Column="1"
+                                    MinWidth="110"
+                                    MinHeight="90"
+                                    Margin="5,0,17,10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Коктейли">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Коктейли"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+                                <Border
+                                    Grid.Row="4"
+                                    Grid.Column="1"
+                                    MinWidth="110"
+                                    MinHeight="90"
+                                    Margin="5,0,17,10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Десерты">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Десерты"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+
+                                <Border
+                                    Grid.Row="1"
+                                    MinWidth="110"
+                                    MinHeight="85"
+                                    Margin="17,0,5,10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Мясо">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Мясо"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+                                <Border
+                                    Grid.Row="2"
+                                    MinWidth="110"
+                                    MinHeight="85"
+                                    Margin="17,0,5,10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Рыба">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Рыба"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+                                <Border
+                                    Grid.Row="3"
+                                    MinWidth="110"
+                                    MinHeight="85"
+                                    Margin="17,0,5,10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Закуски">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Закуски"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+                                <Border
+                                    Grid.Row="4"
+                                    MinWidth="110"
+                                    MinHeight="85"
+                                    Margin="17,0,5,10"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Супы">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Супы"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+                                <Border
+                                    Grid.Row="5"
+                                    Grid.ColumnSpan="2"
+                                    MinWidth="110"
+                                    MinHeight="85"
+                                    Margin="17,0,17,100"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="0"
+                                        BorderThickness="0"
+                                        Click="CategoryButton_Click"
+                                        Cursor="Hand"
+                                        Style="{StaticResource orderSetCount}"
+                                        Tag="Салаты">
+                                        <TextBlock
+                                            Margin="0"
+                                            VerticalAlignment="Center"
+                                            FontSize="30"
+                                            Foreground="White"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Салаты"
+                                            TextAlignment="Center" />
+                                    </Button>
+                                </Border>
+                                <Border
+                                    Grid.Row="5"
+                                    Grid.ColumnSpan="2"
+                                    MinWidth="110"
+                                    MinHeight="85"
+                                    Margin="17,90,17,5"
+                                    Padding="0"
+                                    Background="#B2000000"
+                                    Style="{StaticResource blackBorder}">
+                                    <Grid>
+                                        <Button
+                                            Name="BackToMainMenu"
+                                            Width="90"
+                                            Height="65"
+                                            Margin="10,0,0,4"
+                                            HorizontalAlignment="Left"
+                                            VerticalAlignment="Center"
+                                            Background="#99B94A16"
+                                            BorderBrush="{x:Null}"
+                                            Click="BackToMainMenu_Click_1"
+                                            Foreground="White"
+                                            Style="{StaticResource garconAddGuestButton}">
+                                            <Icon:PackIconMaterial
+                                                Width="40"
+                                                Height="40"
+                                                Margin="0,0,0,0"
+                                                HorizontalAlignment="Center"
+                                                Foreground="White"
+                                                Kind="ArrowLeft"
+                                                Style="{StaticResource menuButtonIcon}" />
+                                        </Button>
+                                    </Grid>
+                                </Border>
+
+                            </Grid>
+                        </controls:BlurryUserControl>
+
+                        <controls:BlurryUserControl
+                            Grid.Column="0"
+                            Margin="10,20,10,40"
+                            Padding="0"
+                            Panel.ZIndex="100"
+                            Background="Transparent"
+                            BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                            BlurRadius="55"
+                            BorderBrush="#AF484848"
+                            BorderThickness="3"
+                            DragMoveEnabled="True"
+                            Magnification="0.25">
+                            <Grid>
+                                <Border
+                                    Width="439"
+                                    Height="50"
+                                    Margin="0,0,0,87"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Bottom"
+                                    Background="#7F000000"
+                                    BorderBrush="#AF484848"
+                                    BorderThickness="2"
+                                    CornerRadius="15">
+                                    <ListBox
+                                        x:Name="guestListBox"
+                                        Width="439"
+                                        Height="50"
+                                        Margin="8,0,0,-2"
+                                        VerticalAlignment="Bottom"
+                                        FontFamily="Fonts/#Inter Bold"
+                                        FontSize="14"
+                                        Foreground="#E5FFFFFF"
+                                        ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                        ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                                        SelectionChanged="guestListBox_SelectionChanged"
+                                        VirtualizingStackPanel.IsVirtualizing="False">
+
+                                        <ListBox.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <WrapPanel
+                                                    Height="50"
+                                                    Margin="0,10"
+                                                    IsItemsHost="True" />
+                                            </ItemsPanelTemplate>
+                                        </ListBox.ItemsPanel>
+                                    </ListBox>
+
+                                </Border>
+                                <TextBlock
+                                    Name="TableText"
+                                    Width="160"
+                                    Height="33"
+                                    Margin="19,15,0,0"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Top"
+                                    FontSize="27"
+                                    Foreground="White"
+                                    Style="{StaticResource menuText}"
+                                    Text="Стол №7" />
+                                <TextBlock
+                                    Name="GarconText"
+                                    Height="24"
+                                    Margin="20,45,0,0"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Top"
+                                    FontSize="20"
+                                    Foreground="#A5A3A3"
+                                    Style="{StaticResource menuText}"
+                                    Text="Суворкин" />
+
+                                <ListView
+                                    Name="orderListView"
+                                    Margin="0,75,0,140"
+                                    HorizontalContentAlignment="Left"
+                                    Background="#FFECECF0"
+                                    BorderBrush="{x:Null}"
+                                    Foreground="Black"
+                                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                    SelectionChanged="orderListView_SelectedItemChanged"
+                                    Visibility="Visible">
+                                    <ListView.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <WrapPanel HorizontalAlignment="Left" Orientation="Horizontal" />
+                                        </ItemsPanelTemplate>
+                                    </ListView.ItemsPanel>
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border
+                                                Width="427 "
+                                                Margin="0,-10,0,0"
+                                                Background="#B2000000"
+                                                CornerRadius="15"
+                                                Style="{StaticResource whiteBorder}">
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="60*" />
+                                                        <ColumnDefinition Width="400*" />
+                                                        <ColumnDefinition Width="70*" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="20*" />
+                                                        <RowDefinition Height="20*" />
+                                                    </Grid.RowDefinitions>
+                                                    <TextBlock
+                                                        Grid.Column="1"
+                                                        Margin="-10,0,0,0"
+                                                        HorizontalAlignment="Left"
+                                                        VerticalAlignment="Top"
+                                                        FontSize="20"
+                                                        Foreground="White"
+                                                        Style="{StaticResource menuText}"
+                                                        Text="{Binding DishName}" />
+                                                    <TextBlock
+                                                        Grid.Column="0"
+                                                        Margin="-20,0,0,0"
+                                                        HorizontalAlignment="Center"
+                                                        VerticalAlignment="Top"
+                                                        FontSize="20"
+                                                        Foreground="#A5A3A3"
+                                                        Style="{StaticResource menuText}"
+                                                        Text="{Binding Count, StringFormat={}{0}x}" />
+                                                    <TextBlock
+                                                        Grid.Column="1"
+                                                        Margin="0,0,-50,0"
+                                                        HorizontalAlignment="Right"
+                                                        VerticalAlignment="Top"
+                                                        FontSize="20"
+                                                        Foreground="White"
+                                                        Style="{StaticResource priceText}"
+                                                        Text="{Binding DishPrice, StringFormat={}{0} ₽}" />
+
+                                                    <TextBlock
+                                                        Grid.Column="1"
+                                                        Margin="0,25,0,0"
+                                                        HorizontalAlignment="Left"
+                                                        VerticalAlignment="Top"
+                                                        FontSize="15"
+                                                        Foreground="#A5A3A3"
+                                                        Style="{StaticResource menuText}"
+                                                        Text="{Binding OptionsText}" />
+                                                    <TextBlock
+                                                        Name="dishDiscountText"
+                                                        Grid.Row="1"
+                                                        Grid.Column="1"
+                                                        Margin="0,0,-50,0"
+                                                        HorizontalAlignment="Right"
+                                                        VerticalAlignment="Top"
+                                                        FontSize="20"
+                                                        Foreground="#FF33BB11"
+                                                        Style="{StaticResource priceText}"
+                                                        Text="{Binding DishDiscount, StringFormat={}-{0} ₽}"
+                                                        Visibility="{Binding DishDiscount, Converter={converters:DoubleToVisibilityConverter}}" />
+                                                    <Button
+                                                        x:Name="deleteButton"
+                                                        Grid.Row="1"
+                                                        Grid.Column="1"
+                                                        Grid.ColumnSpan="2"
+                                                        Width="80"
+                                                        Height="25"
+                                                        HorizontalAlignment="Right"
+                                                        VerticalAlignment="Bottom"
+                                                        Click="deleteButton_Click"
+                                                        Style="{StaticResource garconDeleteGuestButton}"
+                                                        Visibility="Collapsed">
+                                                        <Grid>
+                                                            <Icon:PackIconMaterial
+                                                                Margin="0,0,0,0"
+                                                                HorizontalAlignment="Center"
+                                                                Kind="Delete"
+                                                                Style="{StaticResource menuButtonIcon}" />
+                                                        </Grid>
+                                                    </Button>
+                                                    <Button
+                                                        x:Name="setCountButton"
+                                                        Grid.Row="1"
+                                                        Grid.Column="0"
+                                                        Grid.ColumnSpan="2"
+                                                        Width="255"
+                                                        Height="25"
+                                                        HorizontalAlignment="Left"
+                                                        VerticalAlignment="Bottom"
+                                                        Click="setCountButton_Click"
+                                                        Style="{StaticResource garconAddGuestButton}"
+                                                        Visibility="Collapsed">
+                                                        <Grid>
+                                                            <TextBlock
+                                                                Margin="0"
+                                                                HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                FontSize="15"
+                                                                Style="{StaticResource menuButtonText}"
+                                                                Text="Указать количество" />
+                                                        </Grid>
+                                                    </Button>
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                                <Button
+                                    Width="293"
+                                    Height="70"
+                                    Margin="12,0,0,10"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Bottom"
+                                    Click="PlaceOrder_Click"
+                                    Style="{StaticResource garconGreenButton}">
+                                    <Grid>
+                                        <TextBlock
+                                            Margin="20,0,0,0"
+                                            HorizontalAlignment="Left"
+                                            VerticalAlignment="Center"
+                                            FontSize="20"
+                                            Style="{StaticResource menuButtonText}"
+                                            Text="Принять" />
+                                        <TextBlock
+                                            Name="totalPriceButton"
+                                            Margin="0,3,20,0"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Center"
+                                            FontSize="20"
+                                            Style="{StaticResource priceText}"
+                                            Text="0 ₽" />
+                                    </Grid>
+                                </Button>
+                                <Button
+                                    Width="69"
+                                    Height="70"
+                                    Margin="223,0,0,10"
+                                    VerticalAlignment="Bottom"
+                                    Click="AddGuestButton_Click"
+                                    Style="{StaticResource garconAddGuestButton}">
+                                    <Grid>
+                                        <Icon:PackIconMaterial
+                                            Width="40"
+                                            Height="40"
+                                            Margin="13,0,0,0"
+                                            Kind="AccountPlus"
+                                            Style="{StaticResource menuButtonIcon}" />
+                                    </Grid>
+                                </Button>
+                                <Button
+                                    Width="69"
+                                    Height="70"
+                                    Margin="368,0,0,10"
+                                    VerticalAlignment="Bottom"
+                                    Click="DeleteGuestButton_Click"
+                                    Style="{StaticResource garconDeleteGuestButton}">
+                                    <Grid>
+                                        <Icon:PackIconMaterial
+                                            Width="40"
+                                            Height="40"
+                                            Margin="13,0,0,0"
+                                            Kind="AccountMinus"
+                                            Style="{StaticResource menuButtonIcon}" />
+                                    </Grid>
+                                </Button>
+                            </Grid>
+                        </controls:BlurryUserControl>
+                        <controls:BlurryUserControl
+                            Grid.Column="1"
+                            Margin="0,20,10,40"
+                            Padding="0"
+                            Panel.ZIndex="100"
+                            Background="Transparent"
+                            BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                            BlurRadius="55"
+                            BorderBrush="#AF484848"
+                            BorderThickness="3"
+                            DragMoveEnabled="True"
+                            Magnification="0.25">
+                            <Grid Name="MaybeBlurContainer" Grid.Column="2">
+
+
+                                <ListView
+                                    Name="menuListView"
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    Grid.ColumnSpan="5"
+                                    Margin="10"
+                                    HorizontalContentAlignment="Center"
+                                    Background="Transparent"
+                                    BorderBrush="{x:Null}"
+                                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                    SelectionChanged="orderListView_SelectionChanged"
+                                    Visibility="Visible">
+
+                                    <ListView.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <WrapPanel HorizontalAlignment="Stretch" Orientation="Horizontal" />
+                                        </ItemsPanelTemplate>
+                                    </ListView.ItemsPanel>
+
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border
+                                                Width="219"
+                                                Height="300"
+                                                Margin="0"
+                                                Background="#B6000000"
+                                                BorderThickness="1"
+                                                CornerRadius="15">
+                                                <StackPanel VerticalAlignment="Top">
+                                                    <Image
+                                                        Width="219"
+                                                        Height="197"
+                                                        HorizontalAlignment="Center"
+                                                        Source="{Binding Image}"
+                                                        Stretch="UniformToFill" />
+                                                    <StackPanel
+                                                        Margin="5"
+                                                        HorizontalAlignment="Left"
+                                                        VerticalAlignment="Center">
+                                                        <TextBlock
+                                                            Margin="5,0,0,0"
+                                                            HorizontalAlignment="Left"
+                                                            FontSize="20"
+                                                            FontWeight="Bold"
+                                                            Foreground="White"
+                                                            Style="{StaticResource menuText}"
+                                                            Text="{Binding Name}"
+                                                            TextAlignment="Left"
+                                                            TextWrapping="Wrap" />
+                                                        <TextBlock
+                                                            Margin="5,10,0,0"
+                                                            HorizontalAlignment="Left"
+                                                            FontSize="24"
+                                                            Foreground="White"
+                                                            Style="{StaticResource menuText}"
+                                                            Text="{Binding Price, StringFormat={}{0} ₽}"
+                                                            TextAlignment="Left" />
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+
+                                    <ListView.ItemContainerStyle>
+                                        <Style TargetType="ListViewItem">
+                                            <Setter Property="Padding" Value="0" />
+                                            <Setter Property="Margin" Value="5" />
+                                            <Style.Triggers>
+                                                <Trigger Property="IsSelected" Value="True">
+                                                    <Setter Property="IsEnabled" Value="False" />
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </ListView.ItemContainerStyle>
+                                </ListView>
+
+                                <controls:BlurryUserControl
+                                    Name="optionsBorder"
+                                    Grid.Column="1"
+                                    Margin="0"
+                                    Padding="0"
+                                    Panel.ZIndex="500"
+                                    Background="Transparent"
+                                    BlurContainer="{Binding ElementName=menuListView}"
+                                    BlurRadius="20"
+                                    BorderBrush="#AF484848"
+                                    BorderThickness="3"
+                                    DragMoveEnabled="True"
+                                    Magnification="0.25"
+                                    Visibility="Hidden">
+
+                                    <Border
+                                        Width="600"
+                                        Height="400"
+                                        Background="#B6000000"
+                                        Style="{StaticResource whiteBorder}">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="18*" />
+                                                <RowDefinition Height="100*" />
+                                                <RowDefinition Height="20*" />
+                                            </Grid.RowDefinitions>
+                                            <TextBlock
+                                                Grid.Column="0"
+                                                Grid.ColumnSpan="2"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Center"
+                                                FontSize="27"
+                                                Foreground="White"
+                                                Style="{StaticResource menuText}"
+                                                Text="Пожалуйста, выберете опции" />
+                                            <StackPanel
+                                                Name="OptionsStackPanel"
+                                                Grid.Row="1"
+                                                Orientation="Vertical">
+                                                <ListBox Name="optionsListBox" />
+                                            </StackPanel>
+                                            <Button
+                                                x:Name="OptionsNextButton"
+                                                Grid.Row="2"
+                                                Width="auto"
+                                                Height="45"
+                                                Click="OptionsNextButton_Click"
+                                                Cursor="Hand"
+                                                Style="{StaticResource garconAddGuestButton}"
+                                                Tag="Всё">
+                                                <TextBlock
+                                                    Margin="10,0,10,0"
+                                                    Style="{StaticResource menuButtonText}"
+                                                    Text="Далее"
+                                                    TextAlignment="Center" />
+                                            </Button>
+
+                                        </Grid>
+                                    </Border>
+                                </controls:BlurryUserControl>
+
+                            </Grid>
+                        </controls:BlurryUserControl>
+
+
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Name="MainMenuTabItem" Visibility="Collapsed">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="10*" />
+                    </Grid.RowDefinitions>
+
+                    <controls:BlurryUserControl
+                        Name="TopItemsBar"
+                        Margin="20"
+                        Panel.ZIndex="100"
+                        Background="Transparent"
+                        BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                        BlurRadius="55"
+                        BorderBrush="#AF484848"
+                        BorderThickness="3"
+                        DragMoveEnabled="True">
+                        <Grid>
+                            <Grid
+                                Name="ClockTopMenu"
+                                Width="1880"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Visibility="Visible">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <Border
+                                    Grid.Column="0"
+                                    Width="357"
+                                    Height="100"
+                                    Margin="20,0,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource whiteBorder}">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="#4C000000" />
+                                            <GradientStop Offset="1" Color="Black" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <StackPanel>
+                                        <TextBlock
+                                            Margin="0,10,0,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Top"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="25"
+                                            FontWeight="Bold"
+                                            Text="Принято заказов"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                        <TextBlock
+                                            x:Name="GarconHowManyOrdersToday"
+                                            Margin="0,10,0,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Top"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="30"
+                                            FontWeight="Bold"
+                                            Text="63"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                    </StackPanel>
+
+
+                                </Border>
+                                <Border
+                                    Grid.Column="1"
+                                    Width="357"
+                                    Height="100"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource whiteBorder}">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="#4C000000" />
+                                            <GradientStop Offset="1" Color="Black" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <StackPanel>
+                                        <TextBlock
+                                            Margin="0,10,0,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Top"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="25"
+                                            FontWeight="Bold"
+                                            Text="Блюдо дня"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                        <TextBlock
+                                            x:Name="DishOfTheDay"
+                                            Margin="0,10,0,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Top"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="25"
+                                            FontWeight="Bold"
+                                            Text="Антрекот по бретонски"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                    </StackPanel>
+
+                                </Border>
+
+                                <Border
+                                    Grid.Column="2"
+                                    Width="370"
+                                    Height="100"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource whiteBorder}">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="#4C000000" />
+                                            <GradientStop Offset="1" Color="Black" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <Grid>
+                                        <TextBlock
+                                            x:Name="ClockText"
+                                            Margin="0,-20,0,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="40"
+                                            FontWeight="Bold"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Offset="0" Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                        <TextBlock
+                                            x:Name="DateText"
+                                            Margin="0,40,0,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontFamily="Fonts/#Medium"
+                                            FontSize="20"
+                                            Foreground="LightGray"
+                                            TextAlignment="Center" />
+                                    </Grid>
+                                </Border>
+
+                                <Border
+                                    Grid.Column="3"
+                                    Width="357"
+                                    Height="100"
+                                    Margin="0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource whiteBorder}">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="#4C000000" />
+                                            <GradientStop Offset="1" Color="Black" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <Button    Width="357" Click="ToStopListButton_Click"
+   Height="100" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand" >
+                                        <StackPanel>
+                                            <TextBlock
+           Margin="0,10,0,0"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Top"
+           FontFamily="Fonts/#Inter Bold"
+           FontSize="25"
+           FontWeight="Bold"
+           Text="Блюд в стоп листе"
+           TextAlignment="Center">
+                                                <TextBlock.Foreground>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Color="White" />
+                                                        <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                    </LinearGradientBrush>
+                                                </TextBlock.Foreground>
+                                            </TextBlock>
+                                            <TextBlock
+           Name="StopListCount"
+           Margin="0,10,0,0"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Top"
+           FontFamily="Fonts/#Inter Bold"
+           FontSize="30"
+           FontWeight="Bold"
+           Text="3"
+           TextAlignment="Center">
+                                                <TextBlock.Foreground>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Color="White" />
+                                                        <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                    </LinearGradientBrush>
+                                                </TextBlock.Foreground>
+                                            </TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                 
+                                </Border>
+                                <Border
+                                    Grid.Column="4"
+                                    Width="357"
+                                    Height="100"
+                                    Margin="0,0,20,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource whiteBorder}">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="#4C000000" />
+                                            <GradientStop Offset="1" Color="Black" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <StackPanel>
+                                        <TextBlock
+                                            Margin="0,10,0,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Top"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="25"
+                                            FontWeight="Bold"
+                                            Text="Официант"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                        <TextBlock
+                                            x:Name="GarconNameText"
+                                            Margin="0,10,0,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontFamily="Fonts/#Inter Bold"
+                                            FontSize="30"
+                                            FontWeight="Bold"
+                                            TextAlignment="Center">
+                                            <TextBlock.Foreground>
+                                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                    <GradientStop Color="White" />
+                                                    <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                </LinearGradientBrush>
+                                            </TextBlock.Foreground>
+                                        </TextBlock>
+                                    </StackPanel>
+                                </Border>
+                            </Grid>
+                            <Grid
+                                Name="ActiveOrdersTopMenu"
+                                Width="1880"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Visibility="Collapsed">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Border
+                                    Grid.Column="0"
+                                    Width="600"
+                                    Height="100"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource whiteBorder}">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="#4C000000" />
+                                            <GradientStop Offset="1" Color="#FF383838" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <Button
+                                        Name="PrecheckButton"
+                                        Height="100"
+                                        Padding="0"
+                                        Background="{x:Null}"
+                                        BorderBrush="{x:Null}"
+                                        Click="PrecheckButton_Click"
+                                        Foreground="White">
+                                        <Grid>
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                FontFamily="Fonts/#Inter Bold"
+                                                FontSize="35"
+                                                FontWeight="Bold"
+                                                Text="Пречек"
+                                                TextAlignment="Center">
+                                                <TextBlock.Foreground>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Color="White" />
+                                                        <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                    </LinearGradientBrush>
+                                                </TextBlock.Foreground>
+                                            </TextBlock>
+                                        </Grid>
+                                    </Button>
+
+
+                                </Border>
+                                <Border
+                                    Grid.Column="1"
+                                    Width="600"
+                                    Height="100"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource whiteBorder}">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="#4C000000" />
+                                            <GradientStop Offset="1" Color="#FF1A3315" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <Button
+                                        Name="RealCheckButton"
+                                        Height="100"
+                                        Padding="0"
+                                        Background="{x:Null}"
+                                        BorderBrush="{x:Null}"
+                                        Click="RealCheckButton_Click"
+                                        Foreground="White">
+                                        <Grid>
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                FontFamily="Fonts/#Inter Bold"
+                                                FontSize="35"
+                                                FontWeight="Bold"
+                                                Text="Оплатить"
+                                                TextAlignment="Center">
+                                                <TextBlock.Foreground>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Color="White" />
+                                                        <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                    </LinearGradientBrush>
+                                                </TextBlock.Foreground>
+                                            </TextBlock>
+                                        </Grid>
+                                    </Button>
+
+
+                                </Border>
+                                <Border
+                                    Grid.Column="2"
+                                    Width="600"
+                                    Height="100"
+                                    Margin="0,0,20,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource whiteBorder}">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Offset="0.006" Color="#4C000000" />
+                                            <GradientStop Offset="1" Color="#FF2D0000" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <Button
+                                        Name="CancelOrderButton"
+                                        Height="100"
+                                        Padding="0"
+                                        Background="{x:Null}"
+                                        BorderBrush="{x:Null}"
+                                        Click="CancelOrderButton_Click"
+                                        Foreground="White">
+                                        <Grid>
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                FontFamily="Fonts/#Inter Bold"
+                                                FontSize="35"
+                                                FontWeight="Bold"
+                                                Text="Отменить"
+                                                TextAlignment="Center">
+                                                <TextBlock.Foreground>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Color="White" />
+                                                        <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                    </LinearGradientBrush>
+                                                </TextBlock.Foreground>
+                                            </TextBlock>
+                                        </Grid>
+                                    </Button>
+
+
+                                </Border>
+                            </Grid>
+                        </Grid>
+
+                    </controls:BlurryUserControl>
+
+
+                    <controls:BlurryUserControl
+                        Grid.Row="1"
+                        Margin="20,-10,20,20"
+                        Panel.ZIndex="100"
+                        Background="Transparent"
+                        BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                        BlurRadius="55"
+                        BorderBrush="#AF484848"
+                        BorderThickness="3"
+                        DragMoveEnabled="True">
+                        <Grid Name="MenuGridRoot">
+                            <Grid x:Name="MainGrid" Visibility="Visible">
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="2.7*" />
+                                    <ColumnDefinition Width="2*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="200" />
+                                    <RowDefinition Height="200" />
+                                    <RowDefinition Height="200" />
+                                    <RowDefinition Height="200" />
+                                </Grid.RowDefinitions>
+
+                                <Button
+                                    Name="CreateOrderButton"
+                                    Width="531"
+                                    Height="179"
+                                    Margin="0,10,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    BorderBrush="Transparent"
+                                    Click="CreateOrderButton_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/CreateOrderButton.png" />
+                                    </Button.Background>
+                                </Button>
+                                <Button
+                                    Name="OrdersFromKitchen"
+                                    Grid.Column="1"
+                                    Width="736"
+                                    Height="179"
+                                    Margin="0,10,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    BorderBrush="Transparent"
+                                    Click="OrdersFromKitchen_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/KitchenOrdersButton.png" />
+                                    </Button.Background>
+                                </Button>
+                                <Button
+                                    Name="ToLoginButton"
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    Width="736"
+                                    Height="179"
+                                    Margin="0,-10,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    BorderBrush="Transparent" Click="ToLoginButton_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/ToLoginButton.png" />
+                                    </Button.Background>
+                                </Button>
+                                <Button
+                                    Name="ActiveOrdersButton"
+                                    Grid.Row="1"
+                                    Width="531"
+                                    Height="179"
+                                    Margin="0,5,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Top"
+                                    BorderBrush="Transparent"
+                                    Click="ActiveOrdersButton_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/ActiveOrdersButton.png" />
+                                    </Button.Background>
+                                </Button>
+                                <Button
+                                    Name="DeActiveOrdersButton"
+                                    Grid.Row="2"
+                                    Width="531"
+                                    Height="179"
+                                    Margin="0,-5,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Top"
+                                    BorderBrush="Transparent"
+                                    Click="DeActiveOrdersButton_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/ClosedOrdersButton.png" />
+                                    </Button.Background>
+                                </Button>
+                                <Button
+                                    Name="StartShift"
+                                    Grid.Row="0"
+                                    Grid.Column="2"
+                                    Width="531"
+                                    Height="179"
+                                    Margin="0,10,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    BorderBrush="Transparent"
+                                    Click="StartShift_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/StartButton.png" />
+                                    </Button.Background>
+                                </Button>
+                                <Button
+                                    Name="EndShift"
+                                    Grid.Row="1"
+                                    Grid.Column="2"
+                                    Width="531"
+                                    Height="179"
+                                    Margin="0,5,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Top"
+                                    BorderBrush="Transparent"
+                                    Click="EndShift_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/CloseButton.png" />
+                                    </Button.Background>
+                                </Button>
+                                <Button
+                                    Grid.Row="2"
+                                    Grid.Column="2"
+                                    Width="531"
+                                    Height="179"
+                                    Margin="0,5,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Top"
+                                    BorderBrush="Transparent"
+                                    Click="ScheduleButtonClick">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/MyScheduleButton.png" />
+                                    </Button.Background>
+                                </Button>
+
+
+
+                            </Grid>
+                            <Grid x:Name="ScheduleGrid" Visibility="Collapsed">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1.3*" />
+                                    <RowDefinition Height="20*" />
+                                </Grid.RowDefinitions>
+                                <UniformGrid
+                                    x:Name="CalendarGrid"
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    Margin="10,5,10,20"
+                                    Columns="7"
+                                    Rows="1" />
+                                <Border
+                                    Grid.Row="0"
+                                    Width="50"
+                                    Margin="10,5,0,0"
+                                    Padding="0"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Center"
+                                    Style="{StaticResource blackBorder}">
+                                    <Button
+                                        Name="BackToMenuButton"
+                                        Height="48"
+                                        Padding="0"
+                                        Background="{x:Null}"
+                                        BorderBrush="{x:Null}"
+                                        Click="BackToMenuButton_Click"
+                                        Foreground="White">
+                                        <Grid>
+                                            <Icon:PackIconMaterial
+                                                Width="25"
+                                                Height="25"
+                                                Margin="0"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Kind="ArrowLeft"
+                                                Style="{StaticResource menuButtonIcon}" />
+                                        </Grid>
+                                    </Button>
+
+                                </Border>
+                                <Border
+                                    Grid.Column="1"
+                                    Margin="65,5,12,0"
+                                    Padding="0"
+                                    Style="{StaticResource blackBorder}">
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontFamily="Fonts/#Inter Bold"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Text="Календарь смен"
+                                        TextAlignment="Center">
+                                        <TextBlock.Foreground>
+                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                <GradientStop Color="White" />
+                                                <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                            </LinearGradientBrush>
+                                        </TextBlock.Foreground>
+                                    </TextBlock>
+                                </Border>
+
+                            </Grid>
+                            <Grid
+                                Name="LastOrdersGrid"
+                                Cursor=""
+                                Visibility="Collapsed">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="1*" />
+                                        <RowDefinition Height="15*" />
+                                    </Grid.RowDefinitions>
+                                    <Border
+                                        Grid.Row="0"
+                                        Width="50"
+                                        Margin="10,5,0,0"
+                                        Padding="0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        Style="{StaticResource blackBorder}">
+                                        <Button
+                                            Height="48"
+                                            Padding="0"
+                                            Background="{x:Null}"
+                                            BorderBrush="{x:Null}"
+                                            Click="BackToMenuButton_Click"
+                                            Foreground="White">
+                                            <Grid>
+                                                <Icon:PackIconMaterial
+                                                    Width="25"
+                                                    Height="25"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    Kind="ArrowLeft"
+                                                    Style="{StaticResource menuButtonIcon}" />
+                                            </Grid>
+                                        </Button>
+
+                                    </Border>
+                                    <Border
+                                        Grid.Column="1"
+                                        Margin="65,5,10,0"
+                                        Padding="0"
+                                        Style="{StaticResource blackBorder}">
+                                        <Grid>
+                                            <TextBlock
+                                                x:Name="OrdersInfoStatusText"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                FontFamily="Fonts/#Inter Bold"
+                                                FontSize="30"
+                                                FontWeight="Bold"
+                                                Text="Активные заказы"
+                                                TextAlignment="Center">
+                                                <TextBlock.Foreground>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Color="White" />
+                                                        <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                                    </LinearGradientBrush>
+                                                </TextBlock.Foreground>
+                                            </TextBlock>
+                                            <Icon:PackIconMaterial
+                                                Width="50"
+                                                Height="50"
+                                                Margin="1570,0,0,0"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Kind="AccountGroupOutline"
+                                                Style="{StaticResource menuButtonIcon}">
+                                                <Icon:PackIconMaterial.Foreground>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Color="White" />
+                                                        <GradientStop Offset="1" Color="#FFA5A5A5" />
+                                                    </LinearGradientBrush>
+                                                </Icon:PackIconMaterial.Foreground>
+
+                                            </Icon:PackIconMaterial>
+                                            <Border
+                                                Width="60"
+                                                Height="28"
+                                                Margin="1700,5,0,0"
+                                                Padding="0"
+                                                CornerRadius="15">
+                                                <Border.Background>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Color="White" />
+                                                        <GradientStop Offset="1" Color="#FFB1B1B1" />
+                                                    </LinearGradientBrush>
+                                                </Border.Background>
+                                                <ToggleButton
+                                                    Name="ShowOthersToggle"
+                                                    Width="45"
+                                                    HorizontalAlignment="Center"
+                                                    Checked="ShowOthersToggle_Checked"
+                                                    IsChecked="False"
+                                                    Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                                    Unchecked="ShowOthersToggle_Unchecked" />
+                                            </Border>
+                                        </Grid>
+
+                                    </Border>
+                                    <DataGrid
+                                        x:Name="currentOrdersDataGrid"
+                                        Grid.Row="1"
+                                        Margin="10"
+                                        AutoGenerateColumns="False"
+                                        Background="#B3000000"
+                                        CanUserAddRows="False"
+                                        FontFamily="Fonts/#Inter Medium"
+                                        Foreground="White"
+                                        IsReadOnly="True"
+                                        RowStyle="{StaticResource MaterialDataGridRowStyle}"
+                                        SelectionChanged="currentOrdersDataGrid_SelectionChanged">
+                                        <DataGrid.Resources>
+                                            <Style BasedOn="{StaticResource MaterialDesignDataGridColumnHeader}" TargetType="DataGridColumnHeader">
+                                                <Setter Property="Foreground" Value="White" />
+                                                <Setter Property="FontSize" Value="17" />
+                                            </Style>
+                                        </DataGrid.Resources>
+                                        <DataGrid.Columns>
+
+                                            <DataGridTextColumn
+                                                Binding="{Binding OrderID}"
+                                                FontSize="15"
+                                                Header="№ Заказа" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding TableNumber}"
+                                                FontSize="15"
+                                                Header="Столик" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding GuestsCount}"
+                                                FontSize="15"
+                                                Header="Гостей" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding OrderTime}"
+                                                FontSize="15"
+                                                Header="Время" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding Status}"
+                                                FontSize="15"
+                                                Header="Статус" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding DishDisplay}"
+                                                FontSize="15"
+                                                Header="Блюда и опции" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding TotalBill}"
+                                                FontSize="15"
+                                                Header="Сумма" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding ServingTime}"
+                                                FontSize="15"
+                                                Header="Время подачи" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding Garcon}"
+                                                FontSize="15"
+                                                Header="Официант" />
+                                            <DataGridTextColumn
+                                                Binding="{Binding OrderDate}"
+                                                FontSize="15"
+                                                Header="Дата" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
+                    </controls:BlurryUserControl>
+
+
+                </Grid>
+            </TabItem>
+            <!--<TabItem Name="ScreensaverTabItem">
+                <controls:BlurryUserControl
+ BorderBrush="#AF484848"
+Background="Transparent"
+BorderThickness="3"
+DragMoveEnabled="True"
+Panel.ZIndex="100"
+BlurContainer="{Binding ElementName=OuterBlurContainer}"
+BlurRadius="55" Margin="-20" >
+                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1920" Height="1080" Background="#B6000000">
+                        <TextBlock x:Name="ClockText"
+                       FontSize="120"
+                       FontWeight="Bold"
+                       Foreground="White" FontFamily="Fonts/#Inter Bold"
+                       TextAlignment="Center"
+                       HorizontalAlignment="Center"  VerticalAlignment="Center"
+                       Margin="0,0,0,20"/>
+                        <TextBlock x:Name="DateText"
+                       FontSize="36"
+                       Foreground="LightGray"  VerticalAlignment="Center"
+                       TextAlignment="Center" FontFamily="Fonts/#Medium"
+                       HorizontalAlignment="Center" Margin="0,0,0,-150"/>
+                    </Grid>
+                </controls:BlurryUserControl>
+            </TabItem>-->
+            <TabItem Name="GarconEnterTab">
+                <controls:BlurryUserControl
+                    Margin="-20"
+                    Panel.ZIndex="100"
+                    Background="Transparent"
+                    BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                    BlurRadius="55"
+                    BorderBrush="#AF484848"
+                    BorderThickness="3"
+                    DragMoveEnabled="True">
+                    <Grid Margin="10,50,10,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220" />
+                            <ColumnDefinition Width="902*" />
+                            <ColumnDefinition Width="11*" />
+                            <ColumnDefinition Width="427*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="12" />
+                            <RowDefinition Height="158" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid
+                            Name="reservationsGrid"
+                            Grid.Row="1"
+                            Grid.RowSpan="2"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="4"
+                            Margin="20,0,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="274*" />
+                                <ColumnDefinition Width="274*" />
+                                <ColumnDefinition Width="230*" />
+                                <ColumnDefinition Width="413*" />
+                                <ColumnDefinition Width="179*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="200*" />
+                                <RowDefinition Height="200*" />
+                                <RowDefinition Height="200*" />
+                                <RowDefinition Height="200*" />
+                            </Grid.RowDefinitions>
+                            <uc:table1
+                                x:Name="garconTable1"
+                                Grid.Row="0"
+                                Grid.RowSpan="2"
+                                Grid.Column="0"
+                                Margin="62,0,62,102"
+                                BigBorderWidth="130"
+                                CustomWidth="140"
+                                Number="1"
+                                SmallBorderWidth="116"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable2"
+                                Grid.RowSpan="3"
+                                Grid.Column="0"
+                                Margin="62,151,62,102"
+                                BigBorderWidth="130"
+                                CustomWidth="140"
+                                Number="2"
+                                SmallBorderWidth="116"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable3"
+                                Grid.Row="1"
+                                Grid.RowSpan="3"
+                                Grid.Column="0"
+                                Margin="62,151,62,102"
+                                BigBorderWidth="130"
+                                CustomWidth="140"
+                                Number="3"
+                                SmallBorderWidth="116"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable4"
+                                Grid.Row="2"
+                                Grid.RowSpan="2"
+                                Grid.Column="0"
+                                Margin="62,151,62,-49"
+                                BigBorderWidth="130"
+                                CustomWidth="140"
+                                Number="4"
+                                SmallBorderWidth="116"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable5"
+                                Grid.Row="2"
+                                Grid.RowSpan="2"
+                                Grid.Column="1"
+                                Grid.ColumnSpan="2"
+                                Margin="10,151,39,-49"
+                                BigBorderWidth="370"
+                                CustomWidth="400"
+                                Number="5"
+                                SmallBorderWidth="355"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable6"
+                                Grid.Row="2"
+                                Grid.RowSpan="2"
+                                Grid.Column="3"
+                                Margin="10,151,0,-49"
+                                BigBorderWidth="370"
+                                CustomWidth="400"
+                                Number="6"
+                                SmallBorderWidth="355"
+                                Status="Свободен" />
+
+                            <uc:table1
+                                x:Name="garconTable7"
+                                Grid.Row="2"
+                                Grid.Column="4"
+                                BigBorderWidth="60"
+                                CustomWidth="83"
+                                Number="7"
+                                SmallBorderWidth="45"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable8"
+                                Grid.Row="1"
+                                Grid.Column="4"
+                                BigBorderWidth="60"
+                                CustomWidth="83"
+                                Number="8"
+                                SmallBorderWidth="45"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable9"
+                                Grid.Row="0"
+                                Grid.Column="4"
+                                BigBorderWidth="60"
+                                CustomWidth="83"
+                                Number="9"
+                                SmallBorderWidth="45"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable10"
+                                Grid.Row="1"
+                                Grid.Column="3"
+                                BigBorderWidth="60"
+                                CustomWidth="83"
+                                Number="10"
+                                SmallBorderWidth="45"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable11"
+                                Grid.Row="2"
+                                Grid.Column="3"
+                                BigBorderWidth="60"
+                                CustomWidth="83"
+                                Number="11"
+                                SmallBorderWidth="45"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable12"
+                                Grid.Row="0"
+                                Grid.Column="3"
+                                BigBorderWidth="60"
+                                CustomWidth="83"
+                                Number="12"
+                                SmallBorderWidth="45"
+                                Status="Свободен" />
+                            <uc:table1
+                                x:Name="garconTable13"
+                                Grid.Row="0"
+                                Grid.Column="2"
+                                BigBorderWidth="130"
+                                CustomWidth="140"
+                                Number="13"
+                                RenderTransformOrigin="0.5,0.5"
+                                SmallBorderWidth="116"
+                                Status="Свободен">
+                                <uc:table1.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform />
+                                        <SkewTransform />
+                                        <RotateTransform Angle="90" />
+                                        <TranslateTransform />
+                                    </TransformGroup>
+                                </uc:table1.RenderTransform>
+                            </uc:table1>
+                            <uc:table1
+                                x:Name="garconTable14"
+                                Grid.Row="1"
+                                Grid.Column="2"
+                                BigBorderWidth="130"
+                                CustomWidth="140"
+                                Number="14"
+                                RenderTransformOrigin="0.5,0.5"
+                                SmallBorderWidth="116"
+                                Status="Свободен">
+                                <uc:table1.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform />
+                                        <SkewTransform />
+                                        <RotateTransform Angle="90" />
+                                        <TranslateTransform />
+                                    </TransformGroup>
+                                </uc:table1.RenderTransform>
+                            </uc:table1>
+                            <uc:table1
+                                x:Name="garconTable15"
+                                Grid.Row="1"
+                                Grid.Column="1"
+                                BigBorderWidth="130"
+                                CustomWidth="140"
+                                Number="15"
+                                RenderTransformOrigin="0.5,0.5"
+                                SmallBorderWidth="116"
+                                Status="Свободен">
+                                <uc:table1.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform />
+                                        <SkewTransform />
+                                        <RotateTransform Angle="90" />
+                                        <TranslateTransform />
+                                    </TransformGroup>
+                                </uc:table1.RenderTransform>
+                            </uc:table1>
+                            <uc:table1
+                                x:Name="garconTable16"
+                                Grid.Row="0"
+                                Grid.Column="1"
+                                BigBorderWidth="130"
+                                CustomWidth="140"
+                                Number="16"
+                                RenderTransformOrigin="0.5,0.5"
+                                SmallBorderWidth="116"
+                                Status="Свободен">
+                                <uc:table1.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform />
+                                        <SkewTransform />
+                                        <RotateTransform Angle="90" />
+                                        <TranslateTransform />
+                                    </TransformGroup>
+                                </uc:table1.RenderTransform>
+                            </uc:table1>
+                        </Grid>
+                    </Grid>
+                </controls:BlurryUserControl>
+
+            </TabItem>
+            <TabItem Name="LoginTabItem" Visibility="Collapsed" IsSelected="True">
+                <Grid Margin="0,0,0,-22">
+
+                    <controls:BlurryUserControl
+                        Margin="-20"
+                        Panel.ZIndex="100"
+                        Background="Transparent"
+                        BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                        BlurRadius="55"
+                        BorderBrush="#AF484848"
+                        BorderThickness="3"
+                        DragMoveEnabled="True">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100*" />
+                                <RowDefinition Height="12*" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                Grid.Column="0"
+                                Width="500"
+                                Height="600 "
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Background="#B6000000"
+                                Style="{StaticResource whiteBorder}">
+                                <Grid Margin="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <StackPanel Grid.Row="0" Margin="0,10">
+                                        <TextBlock
+                                            Margin="0,0,0,10"
+                                            HorizontalAlignment="Center"
+                                            FontSize="27"
+                                            Foreground="White"
+                                            Style="{StaticResource menuText}"
+                                            Text="Войдите с помощью код пароля" />
+                                        <PasswordBox
+                                            x:Name="PasswordBox"
+                                            BorderBrush="#7FFFFFFF"
+                                            FontSize="23"
+                                            Foreground="White" />
+                                    </StackPanel>
+
+                                    <Grid Grid.Row="1" Margin="0,20,0,0">
+
+                                        <UniformGrid
+                                            Grid.Column="0"
+                                            Columns="3"
+                                            Rows="4">
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="7"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="8"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="9"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="4"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="5"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="6"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="1"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="2"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="3"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="0"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Background="#CCB33C3C"
+                                                Click="Delete_Click"
+                                                Style="{StaticResource CircularButtonStyle}">
+                                                <Icon:PackIconMaterial
+                                                    Width="50"
+                                                    Height="50"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    Kind="BackspaceOutline"
+                                                    Style="{StaticResource menuButtonIcon}" />
+                                            </Button>
+                                            <Button
+                                                Grid.Row="1"
+                                                Width="140"
+                                                Height="95"
+                                                Background="#CC55B33C"
+                                                Click="Login_Click"
+                                                FontSize="18"
+                                                Style="{StaticResource CircularButtonStyle}">
+                                                <TextBlock
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontSize="30"
+                                                    Foreground="White"
+                                                    Style="{StaticResource menuText}"
+                                                    Text="Ввод" />
+                                            </Button>
+                                        </UniformGrid>
+
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                            <Border
+                                Grid.Row="1"
+                                Grid.Column="0"
+                                Width="1920"
+                                Height="70"
+                                Margin="0,0,0,38"
+                                Padding="0"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Bottom"
+                                Background="#B6000000"
+                                CornerRadius="0"
+                                Style="{StaticResource whiteBorder}">
+                                <Grid>
+                                    <TextBlock
+                                        Margin="0"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontSize="20"
+                                        Foreground="White"
+                                        Style="{StaticResource menuText}"
+                                        Text="Поддержка: 8 (800) 944 27 49" />
+                                    <TextBlock
+                                        Name="HardwareIDText"
+                                        Margin="0,0,20,0"
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Center"
+                                        FontSize="20"
+                                        Foreground="White"
+                                        Style="{StaticResource menuText}" />
+                                    <Icon:PackIconMaterial
+                                        Name="NetIcon"
+                                        Width="30"
+                                        Height="30"
+                                        Margin="20,0,0,0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        Foreground="White"
+                                        Kind="AccessPoint"
+                                        Style="{StaticResource menuButtonIcon}" />
+                                    <TextBlock
+                                        Name="DBInfoText"
+                                        Margin="60,0,0,0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        FontSize="20"
+                                        Foreground="White"
+                                        Style="{StaticResource menuText}" />
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </controls:BlurryUserControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Border
+            x:Name="NotificationPanel"
+            Grid.Row="3"
+            Grid.Column="2"
+            Width="400"
+            Height="70"
+            Margin="0,0,20,20"
+            Padding="15"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Background="#E5353535"
+            BorderThickness="4"
+            CornerRadius="8"
+            Opacity="0"
+            RenderTransformOrigin="1,0.5"
+            Visibility="Visible">
+            <Border.RenderTransform>
+                <TranslateTransform x:Name="NotificationTranslate" X="100" />
+            </Border.RenderTransform>
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0.009" Color="#E5A93103" />
+                    <GradientStop Offset="1" Color="#E54C4C4C" />
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <TextBlock
+                x:Name="NotificationText"
+                VerticalAlignment="Center"
+                FontSize="18"
+                Foreground="White"
+                Text="Смена уже открыта!" />
+        </Border>
+    </Grid>
+</Window>

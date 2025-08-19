@@ -1,0 +1,1001 @@
+﻿<Window
+    x:Class="WpfApp1.KitchenWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:controls="clr-namespace:BlurryControls.Controls;assembly=BlurryControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp1"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Cafe# Кухня"
+    Width="1920"
+    Height="1080"
+    Background="Transparent"
+    FontFamily="Fonts/#Inter Regular"
+    ResizeMode="CanResizeWithGrip"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+        <Grid x:Name="OuterBlurContainer">
+            <Grid x:Name="InnerBlurContainer">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Images/KitchenPhoto.png" />
+                </Grid.Background>
+            </Grid>
+        </Grid>
+        <TabControl>
+            <TabControl.ItemContainerStyle>
+                <Style TargetType="{x:Type TabItem}">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                </Style>
+            </TabControl.ItemContainerStyle>
+            <TabItem Name="MainMenuTabItem" Visibility="Collapsed">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <controls:BlurryUserControl
+                        Grid.Row="1"
+                        Margin="10,20,5,20"
+                        Panel.ZIndex="100"
+                        Background="Transparent"
+                        BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                        BlurRadius="55"
+                        BorderBrush="#AF484848"
+                        BorderThickness="3"
+                        DragMoveEnabled="True">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="15*" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                Grid.Column="1"
+                                Margin="10,5,10,0"
+                                Padding="0"
+                                Style="{StaticResource blackBorder}">
+                                <Grid>
+                                    <TextBlock
+                                        x:Name="OrdersInfoStatusText"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontFamily="Fonts/#Inter Bold"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Text="Поступившие заказы"
+                                        TextAlignment="Center">
+                                        <TextBlock.Foreground>
+                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                <GradientStop Color="White" />
+                                                <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                            </LinearGradientBrush>
+                                        </TextBlock.Foreground>
+                                    </TextBlock>
+                                    <Border
+                                        Width="60"
+                                        Height="28"
+                                        Margin="1700,5,0,0"
+                                        Padding="0"
+                                        CornerRadius="15">
+                                        <Border.Background>
+                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                <GradientStop Color="White" />
+                                                <GradientStop Offset="1" Color="#FFB1B1B1" />
+                                            </LinearGradientBrush>
+                                        </Border.Background>
+
+                                    </Border>
+                                </Grid>
+
+                            </Border>
+                            <ScrollViewer
+                                Grid.Row="1"
+                                Margin="0,5,0,0"
+                                VerticalScrollBarVisibility="Auto">
+                                <ItemsControl ItemsSource="{Binding NewOrders}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border
+                                                Width="560"
+                                                Margin="10,5,10,10"
+                                                Padding="15"
+                                                Background="#B2000000"
+                                                CornerRadius="8">
+                                                <Border.Effect>
+                                                    <DropShadowEffect
+                                                        BlurRadius="10"
+                                                        Opacity="0.3"
+                                                        ShadowDepth="2"
+                                                        Color="Black" />
+                                                </Border.Effect>
+                                                <StackPanel>
+                                                    <Grid Margin="0,0,0,10">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*" />
+                                                            <ColumnDefinition Width="Auto" />
+                                                        </Grid.ColumnDefinitions>
+                                                        <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                                            <TextBlock
+                                                                FontSize="22"
+                                                                FontWeight="SemiBold"
+                                                                Foreground="#FFFFFFFF"
+                                                                Text="Заказ №" />
+                                                            <TextBlock
+                                                                Margin="2,0,0,0"
+                                                                FontSize="22"
+                                                                FontWeight="SemiBold"
+                                                                Foreground="#FFFFFFFF"
+                                                                Text="{Binding Orders_ID}" />
+                                                        </StackPanel>
+                                                        <TextBlock
+                                                            Grid.Column="1"
+                                                            HorizontalAlignment="Right"
+                                                            VerticalAlignment="Center"
+                                                            FontSize="16"
+                                                            Foreground="#FFAAAAAA"
+                                                            Text="{Binding OrderTime, StringFormat={}Время: {0:HH:mm}}" />
+                                                    </Grid>
+
+                                                    <TextBlock
+                                                        Margin="0,0,0,15"
+                                                        FontSize="18"
+                                                        FontWeight="Normal"
+                                                        Foreground="#FFDDDDDD"
+                                                        Text="{Binding Table_ID, StringFormat={}Стол: {0}}" />
+
+                                                    <Border
+                                                        Height="1"
+                                                        Margin="0,0,0,15"
+                                                        Background="#FF4A4A4A" />
+
+                                                    <TextBlock
+                                                        Margin="0,0,0,10"
+                                                        FontSize="18"
+                                                        FontWeight="SemiBold"
+                                                        Foreground="#FFFFFFFF"
+                                                        Text="Позиции:" />
+                                                    <ItemsControl ItemsSource="{Binding Dishes}">
+                                                        <ItemsControl.ItemTemplate>
+                                                            <DataTemplate>
+                                                                <Border
+                                                                    Margin="5,5,5,10"
+                                                                    Padding="10"
+                                                                    Background="#FF3C3C3F"
+                                                                    BorderBrush="#FF555555"
+                                                                    BorderThickness="1"
+                                                                    CornerRadius="6"
+                                                                    Cursor="Hand"
+                                                                    MouseLeftButtonDown="DishBorder_MouseLeftButtonDown">
+                                                                    <StackPanel>
+                                                                        <Grid>
+                                                                            <Grid.ColumnDefinitions>
+                                                                                <ColumnDefinition Width="*" />
+                                                                                <ColumnDefinition Width="Auto" />
+                                                                            </Grid.ColumnDefinitions>
+                                                                            <TextBlock
+                                                                                Grid.Column="0"
+                                                                                FontSize="16"
+                                                                                Foreground="#FFE0E0E0"
+                                                                                Text="{Binding Menu_Name}"
+                                                                                TextTrimming="CharacterEllipsis" />
+
+                                                                            <Border
+                                                                                Grid.Column="1"
+                                                                                Margin="10,0,0,0"
+                                                                                Padding="8,3"
+                                                                                CornerRadius="4">
+                                                                                <Border.Style>
+                                                                                    <Style TargetType="Border">
+                                                                                        <Setter Property="Background" Value="#FF555555" />
+                                                                                        <Style.Triggers>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Готовится">
+                                                                                                <Setter Property="Background" Value="#FFD28F0E" />
+                                                                                            </DataTrigger>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Готово">
+                                                                                                <Setter Property="Background" Value="#FF388E3C" />
+                                                                                            </DataTrigger>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Отменено">
+                                                                                                <Setter Property="Background" Value="#FFD32F2F" />
+                                                                                            </DataTrigger>
+                                                                                        </Style.Triggers>
+                                                                                    </Style>
+                                                                                </Border.Style>
+                                                                                <TextBlock
+                                                                                    FontSize="12"
+                                                                                    FontWeight="Medium"
+                                                                                    Foreground="White"
+                                                                                    Text="{Binding Dish_Status}" />
+                                                                            </Border>
+                                                                        </Grid>
+
+                                                                        <StackPanel
+                                                                            x:Name="ButtonsPanel"
+                                                                            Margin="0,10,0,0"
+                                                                            Orientation="Horizontal"
+                                                                            Visibility="Collapsed">
+                                                                            <StackPanel.Resources>
+                                                                                <Style TargetType="Button">
+                                                                                    <Setter Property="Width" Value="Auto" />
+                                                                                    <Setter Property="MinWidth" Value="90" />
+                                                                                    <Setter Property="Margin" Value="0,0,10,0" />
+                                                                                    <Setter Property="Padding" Value="10,5" />
+                                                                                    <Setter Property="Background" Value="#FFB94A16" />
+                                                                                    <Setter Property="Foreground" Value="White" />
+                                                                                    <Setter Property="FontWeight" Value="Medium" />
+                                                                                    <Setter Property="BorderThickness" Value="0" />
+                                                                                    <Setter Property="Cursor" Value="Hand" />
+                                                                                    <Setter Property="Template">
+                                                                                        <Setter.Value>
+                                                                                            <ControlTemplate TargetType="Button">
+                                                                                                <Border Background="{TemplateBinding Background}" CornerRadius="4">
+                                                                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                                                                                </Border>
+                                                                                            </ControlTemplate>
+                                                                                        </Setter.Value>
+                                                                                    </Setter>
+                                                                                    <Style.Triggers>
+                                                                                        <Trigger Property="IsMouseOver" Value="True">
+                                                                                            <Setter Property="Background" Value="#FFD45F2A" />
+                                                                                        </Trigger>
+                                                                                        <Trigger Property="IsPressed" Value="True">
+                                                                                            <Setter Property="Background" Value="#FF9E3B0D" />
+                                                                                        </Trigger>
+                                                                                    </Style.Triggers>
+                                                                                </Style>
+                                                                            </StackPanel.Resources>
+                                                                            <Button
+                                                                               
+                                                                                Height="30"
+                                                                                Click="StatusButton_Click"
+                                                                                Content="Готовится" />
+                                                                            <Button
+                                                                             
+                                                                                Click="StatusButton_Click"
+                                                                                Content="Готово" />
+                                                                            <Button
+                                                                               
+                                                                                Background="#FF6B7280"
+                                                                                Click="StatusButton_Click"
+                                                                                Content="Отменить" />
+                                                                        </StackPanel>
+                                                                    </StackPanel>
+                                                                </Border>
+                                                            </DataTemplate>
+                                                        </ItemsControl.ItemTemplate>
+                                                    </ItemsControl>
+
+                                                    <Border
+                                                        Height="1"
+                                                        Margin="0,15,0,10"
+                                                        Background="#FF4A4A4A" />
+
+                                                    <TextBlock
+                                                        HorizontalAlignment="Right"
+                                                        FontSize="15"
+                                                        FontStyle="Italic"
+                                                        Foreground="#FFBBBBBB"
+                                                        Text="{Binding Garcon_Name, StringFormat={}Официант: {0}}" />
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                        </Grid>
+
+                    </controls:BlurryUserControl>
+
+                    <controls:BlurryUserControl
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Margin="5,20,5,20"
+                        Panel.ZIndex="100"
+                        Background="Transparent"
+                        BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                        BlurRadius="55"
+                        BorderBrush="#AF484848"
+                        BorderThickness="3"
+                        DragMoveEnabled="True">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="15*" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                Grid.Column="1"
+                                Margin="10,5,10,0"
+                                Padding="0"
+                                Style="{StaticResource blackBorder}">
+                                <Grid>
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontFamily="Fonts/#Inter Bold"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Text="Готовятся"
+                                        TextAlignment="Center">
+                                        <TextBlock.Foreground>
+                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                <GradientStop Color="White" />
+                                                <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                            </LinearGradientBrush>
+                                        </TextBlock.Foreground>
+                                    </TextBlock>
+                                    <Border
+                                        Width="60"
+                                        Height="28"
+                                        Margin="1700,5,0,0"
+                                        Padding="0"
+                                        CornerRadius="15">
+                                        <Border.Background>
+                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                <GradientStop Color="White" />
+                                                <GradientStop Offset="1" Color="#FFB1B1B1" />
+                                            </LinearGradientBrush>
+                                        </Border.Background>
+
+                                    </Border>
+                                </Grid>
+
+                            </Border>
+                            <ScrollViewer
+                                Grid.Row="1"
+                                Margin="0,5,0,0"
+                                VerticalScrollBarVisibility="Auto">
+                                <ItemsControl ItemsSource="{Binding PreparingOrders}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border
+                                                Width="560"
+                                                Margin="10,5,10,10"
+                                                Padding="15"
+                                                CornerRadius="8">
+                                                <Border.Background>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Offset="0.413" Color="#B2000000" />
+                                                        <GradientStop Offset="0.989" Color="#B2C54800" />
+                                                        <GradientStop Offset="0.986" Color="#B26D2800" />
+                                                    </LinearGradientBrush>
+                                                </Border.Background>
+                                                <Border.Effect>
+                                                    <DropShadowEffect
+                                                        BlurRadius="10"
+                                                        Opacity="0.3"
+                                                        ShadowDepth="2"
+                                                        Color="Black" />
+                                                </Border.Effect>
+                                                <StackPanel>
+                                                    <Grid Margin="0,0,0,10">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*" />
+                                                            <ColumnDefinition Width="Auto" />
+                                                        </Grid.ColumnDefinitions>
+                                                        <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                                            <TextBlock
+                                                                FontSize="22"
+                                                                FontWeight="SemiBold"
+                                                                Foreground="#FFFFFFFF"
+                                                                Text="Заказ №" />
+                                                            <TextBlock
+                                                                Margin="2,0,0,0"
+                                                                FontSize="22"
+                                                                FontWeight="SemiBold"
+                                                                Foreground="#FFFFFFFF"
+                                                                Text="{Binding Orders_ID}" />
+                                                        </StackPanel>
+                                                        <TextBlock
+                                                            Grid.Column="1"
+                                                            HorizontalAlignment="Right"
+                                                            VerticalAlignment="Center"
+                                                            FontSize="16"
+                                                            Foreground="#FFAAAAAA"
+                                                            Text="{Binding OrderTime, StringFormat={}Время: {0:HH:mm}}" />
+                                                    </Grid>
+
+                                                    <TextBlock
+                                                        Margin="0,0,0,15"
+                                                        FontSize="18"
+                                                        FontWeight="Normal"
+                                                        Foreground="#FFDDDDDD"
+                                                        Text="{Binding Table_ID, StringFormat={}Стол: {0}}" />
+
+                                                    <Border
+                                                        Height="1"
+                                                        Margin="0,0,0,15"
+                                                        Background="#FF4A4A4A" />
+
+                                                    <TextBlock
+                                                        Margin="0,0,0,10"
+                                                        FontSize="18"
+                                                        FontWeight="SemiBold"
+                                                        Foreground="#FFFFFFFF"
+                                                        Text="Позиции:" />
+                                                    <ItemsControl ItemsSource="{Binding Dishes}">
+                                                        <ItemsControl.ItemTemplate>
+                                                            <DataTemplate>
+                                                                <Border
+                                                                    Margin="5,5,5,10"
+                                                                    Padding="10"
+                                                                    Background="#FF3C3C3F"
+                                                                    BorderBrush="#FF555555"
+                                                                    BorderThickness="1"
+                                                                    CornerRadius="6"
+                                                                    Cursor="Hand"
+                                                                    MouseLeftButtonDown="DishBorder_MouseLeftButtonDown">
+                                                                    <StackPanel>
+                                                                        <Grid>
+                                                                            <Grid.ColumnDefinitions>
+                                                                                <ColumnDefinition Width="*" />
+                                                                                <ColumnDefinition Width="Auto" />
+                                                                            </Grid.ColumnDefinitions>
+                                                                            <TextBlock
+                                                                                Grid.Column="0"
+                                                                                FontSize="16"
+                                                                                Foreground="#FFE0E0E0"
+                                                                                Text="{Binding Menu_Name}"
+                                                                                TextTrimming="CharacterEllipsis" />
+
+                                                                            <Border
+                                                                                Grid.Column="1"
+                                                                                Margin="10,0,0,0"
+                                                                                Padding="8,3"
+                                                                                CornerRadius="4">
+                                                                                <Border.Style>
+                                                                                    <Style TargetType="Border">
+                                                                                        <Setter Property="Background" Value="#FF555555" />
+                                                                                        <Style.Triggers>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Готовится">
+                                                                                                <Setter Property="Background" Value="#FFD28F0E" />
+                                                                                            </DataTrigger>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Готово">
+                                                                                                <Setter Property="Background" Value="#FF388E3C" />
+                                                                                            </DataTrigger>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Отменено">
+                                                                                                <Setter Property="Background" Value="#FFD32F2F" />
+                                                                                            </DataTrigger>
+                                                                                        </Style.Triggers>
+                                                                                    </Style>
+                                                                                </Border.Style>
+                                                                                <TextBlock
+                                                                                    FontSize="12"
+                                                                                    FontWeight="Medium"
+                                                                                    Foreground="White"
+                                                                                    Text="{Binding Dish_Status}" />
+                                                                            </Border>
+                                                                        </Grid>
+
+                                                                        <StackPanel
+                                                                            x:Name="ButtonsPanel"
+                                                                            Margin="0,10,0,0"
+                                                                            Orientation="Horizontal"
+                                                                            Visibility="Collapsed">
+                                                                            <StackPanel.Resources>
+                                                                                <Style TargetType="Button">
+                                                                                    <Setter Property="Width" Value="Auto" />
+                                                                                    <Setter Property="MinWidth" Value="90" />
+                                                                                    <Setter Property="Margin" Value="0,0,10,0" />
+                                                                                    <Setter Property="Padding" Value="10,5" />
+                                                                                    <Setter Property="Background" Value="#FFB94A16" />
+                                                                                    <Setter Property="Foreground" Value="White" />
+                                                                                    <Setter Property="FontWeight" Value="Medium" />
+                                                                                    <Setter Property="BorderThickness" Value="0" />
+                                                                                    <Setter Property="Cursor" Value="Hand" />
+                                                                                    <Setter Property="Template">
+                                                                                        <Setter.Value>
+                                                                                            <ControlTemplate TargetType="Button">
+                                                                                                <Border Background="{TemplateBinding Background}" CornerRadius="4">
+                                                                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                                                                                </Border>
+                                                                                            </ControlTemplate>
+                                                                                        </Setter.Value>
+                                                                                    </Setter>
+                                                                                    <Style.Triggers>
+                                                                                        <Trigger Property="IsMouseOver" Value="True">
+                                                                                            <Setter Property="Background" Value="#FFD45F2A" />
+                                                                                        </Trigger>
+                                                                                        <Trigger Property="IsPressed" Value="True">
+                                                                                            <Setter Property="Background" Value="#FF9E3B0D" />
+                                                                                        </Trigger>
+                                                                                    </Style.Triggers>
+                                                                                </Style>
+                                                                            </StackPanel.Resources>
+                                                                            <Button
+                                                                                Height="30"
+                                                                                Click="StatusButton_Click"
+                                                                                Content="Готовится" />
+                                                                            <Button Click="StatusButton_Click" Content="Готово" />
+                                                                            <Button
+                                                                                Background="#FF6B7280"
+                                                                                Click="StatusButton_Click"
+                                                                                Content="Отменить" />
+                                                                        </StackPanel>
+                                                                    </StackPanel>
+                                                                </Border>
+                                                            </DataTemplate>
+                                                        </ItemsControl.ItemTemplate>
+                                                    </ItemsControl>
+
+                                                    <Border
+                                                        Height="1"
+                                                        Margin="0,15,0,10"
+                                                        Background="#FF4A4A4A" />
+
+                                                    <TextBlock
+                                                        HorizontalAlignment="Right"
+                                                        FontSize="15"
+                                                        FontStyle="Italic"
+                                                        Foreground="#FFBBBBBB"
+                                                        Text="{Binding Garcon_Name, StringFormat={}Официант: {0}}" />
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                        </Grid>
+
+                    </controls:BlurryUserControl>
+
+                    <controls:BlurryUserControl
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Margin="5,20,5,20"
+                        Panel.ZIndex="100"
+                        Background="Transparent"
+                        BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                        BlurRadius="55"
+                        BorderBrush="#AF484848"
+                        BorderThickness="3"
+                        DragMoveEnabled="True">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="15*" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                Grid.Column="1"
+                                Margin="10,5,10,0"
+                                Padding="0"
+                                Style="{StaticResource blackBorder}">
+                                <Grid>
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontFamily="Fonts/#Inter Bold"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Text="Готовы"
+                                        TextAlignment="Center">
+                                        <TextBlock.Foreground>
+                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                <GradientStop Color="White" />
+                                                <GradientStop Offset="0.994" Color="#FFA4A4A4" />
+                                            </LinearGradientBrush>
+                                        </TextBlock.Foreground>
+                                    </TextBlock>
+                                    <Border
+                                        Width="60"
+                                        Height="28"
+                                        Margin="1700,5,0,0"
+                                        Padding="0"
+                                        CornerRadius="15">
+                                        <Border.Background>
+                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                <GradientStop Color="White" />
+                                                <GradientStop Offset="1" Color="#FFB1B1B1" />
+                                            </LinearGradientBrush>
+                                        </Border.Background>
+
+                                    </Border>
+                                </Grid>
+
+                            </Border>
+                            <ScrollViewer
+                                Grid.Row="1"
+                                Margin="0,5,0,0"
+                                VerticalScrollBarVisibility="Auto">
+                                <ItemsControl ItemsSource="{Binding AllReadyOrders}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border
+                                                Width="560"
+                                                Margin="10,5,10,10"
+                                                Padding="15"
+                                                CornerRadius="8">
+                                                <Border.Background>
+                                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                        <GradientStop Offset="0.413" Color="#B2000000" />
+                                                        <GradientStop Offset="0.989" Color="#B22FB700" />
+                                                        <GradientStop Offset="0.986" Color="#B2225B0E" />
+                                                    </LinearGradientBrush>
+                                                </Border.Background>
+                                                <Border.Effect>
+                                                    <DropShadowEffect
+                                                        BlurRadius="10"
+                                                        Opacity="0.3"
+                                                        ShadowDepth="2"
+                                                        Color="Black" />
+                                                </Border.Effect>
+                                                <StackPanel>
+                                                    <Grid Margin="0,0,0,10">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*" />
+                                                            <ColumnDefinition Width="Auto" />
+                                                        </Grid.ColumnDefinitions>
+                                                        <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                                            <TextBlock
+                                                                FontSize="22"
+                                                                FontWeight="SemiBold"
+                                                                Foreground="#FFFFFFFF"
+                                                                Text="Заказ №" />
+                                                            <TextBlock
+                                                                Margin="2,0,0,0"
+                                                                FontSize="22"
+                                                                FontWeight="SemiBold"
+                                                                Foreground="#FFFFFFFF"
+                                                                Text="{Binding Orders_ID}" />
+                                                        </StackPanel>
+                                                        <TextBlock
+                                                            Grid.Column="1"
+                                                            HorizontalAlignment="Right"
+                                                            VerticalAlignment="Center"
+                                                            FontSize="16"
+                                                            Foreground="#FFAAAAAA"
+                                                            Text="{Binding OrderTime, StringFormat={}Время: {0:HH:mm}}" />
+                                                    </Grid>
+
+                                                    <TextBlock
+                                                        Margin="0,0,0,15"
+                                                        FontSize="18"
+                                                        FontWeight="Normal"
+                                                        Foreground="#FFDDDDDD"
+                                                        Text="{Binding Table_ID, StringFormat={}Стол: {0}}" />
+
+                                                    <Border
+                                                        Height="1"
+                                                        Margin="0,0,0,15"
+                                                        Background="#FF4A4A4A" />
+
+                                                    <TextBlock
+                                                        Margin="0,0,0,10"
+                                                        FontSize="18"
+                                                        FontWeight="SemiBold"
+                                                        Foreground="#FFFFFFFF"
+                                                        Text="Позиции:" />
+                                                    <ItemsControl ItemsSource="{Binding Dishes}">
+                                                        <ItemsControl.ItemTemplate>
+                                                            <DataTemplate>
+                                                                <Border
+                                                                    Margin="5,5,5,10"
+                                                                    Padding="10"
+                                                                    Background="#FF3C3C3F"
+                                                                    BorderBrush="#FF555555"
+                                                                    BorderThickness="1"
+                                                                    CornerRadius="6"
+                                                                    Cursor="Hand"
+                                                                    MouseLeftButtonDown="DishBorder_MouseLeftButtonDown">
+                                                                    <StackPanel>
+                                                                        <Grid>
+                                                                            <Grid.ColumnDefinitions>
+                                                                                <ColumnDefinition Width="*" />
+                                                                                <ColumnDefinition Width="Auto" />
+                                                                            </Grid.ColumnDefinitions>
+                                                                            <TextBlock
+                                                                                Grid.Column="0"
+                                                                                FontSize="16"
+                                                                                Foreground="#FFE0E0E0"
+                                                                                Text="{Binding Menu_Name}"
+                                                                                TextTrimming="CharacterEllipsis" />
+
+                                                                            <Border
+                                                                                Grid.Column="1"
+                                                                                Margin="10,0,0,0"
+                                                                                Padding="8,3"
+                                                                                CornerRadius="4">
+                                                                                <Border.Style>
+                                                                                    <Style TargetType="Border">
+                                                                                        <Setter Property="Background" Value="#FF555555" />
+                                                                                        <Style.Triggers>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Готовится">
+                                                                                                <Setter Property="Background" Value="#FFD28F0E" />
+                                                                                            </DataTrigger>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Готово">
+                                                                                                <Setter Property="Background" Value="#FF388E3C" />
+                                                                                            </DataTrigger>
+                                                                                            <DataTrigger Binding="{Binding Dish_Status}" Value="Отменено">
+                                                                                                <Setter Property="Background" Value="#FFD32F2F" />
+                                                                                            </DataTrigger>
+                                                                                        </Style.Triggers>
+                                                                                    </Style>
+                                                                                </Border.Style>
+                                                                                <TextBlock
+                                                                                    FontSize="12"
+                                                                                    FontWeight="Medium"
+                                                                                    Foreground="White"
+                                                                                    Text="{Binding Dish_Status}" />
+                                                                            </Border>
+                                                                        </Grid>
+
+                                                                        <StackPanel
+                                                                            x:Name="ButtonsPanel"
+                                                                            Margin="0,10,0,0"
+                                                                            Orientation="Horizontal"
+                                                                            Visibility="Collapsed">
+                                                                            <StackPanel.Resources>
+                                                                                <Style TargetType="Button">
+                                                                                    <Setter Property="Width" Value="Auto" />
+                                                                                    <Setter Property="MinWidth" Value="90" />
+                                                                                    <Setter Property="Margin" Value="0,0,10,0" />
+                                                                                    <Setter Property="Padding" Value="10,5" />
+                                                                                    <Setter Property="Background" Value="#FFB94A16" />
+                                                                                    <Setter Property="Foreground" Value="White" />
+                                                                                    <Setter Property="FontWeight" Value="Medium" />
+                                                                                    <Setter Property="BorderThickness" Value="0" />
+                                                                                    <Setter Property="Cursor" Value="Hand" />
+                                                                                    <Setter Property="Template">
+                                                                                        <Setter.Value>
+                                                                                            <ControlTemplate TargetType="Button">
+                                                                                                <Border Background="{TemplateBinding Background}" CornerRadius="4">
+                                                                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                                                                                </Border>
+                                                                                            </ControlTemplate>
+                                                                                        </Setter.Value>
+                                                                                    </Setter>
+                                                                                    <Style.Triggers>
+                                                                                        <Trigger Property="IsMouseOver" Value="True">
+                                                                                            <Setter Property="Background" Value="#FFD45F2A" />
+                                                                                        </Trigger>
+                                                                                        <Trigger Property="IsPressed" Value="True">
+                                                                                            <Setter Property="Background" Value="#FF9E3B0D" />
+                                                                                        </Trigger>
+                                                                                    </Style.Triggers>
+                                                                                </Style>
+                                                                            </StackPanel.Resources>
+                                                                            <Button
+                                                                                Height="30"
+                                                                                Click="StatusButton_Click"
+                                                                                Content="Готовится" />
+                                                                            <Button Click="StatusButton_Click" Content="Готово" />
+                                                                            <Button
+                                                                                Background="#FF6B7280"
+                                                                                Click="StatusButton_Click"
+                                                                                Content="Отменить" />
+                                                                        </StackPanel>
+                                                                    </StackPanel>
+                                                                </Border>
+                                                            </DataTemplate>
+                                                        </ItemsControl.ItemTemplate>
+                                                    </ItemsControl>
+
+                                                    <Border
+                                                        Height="1"
+                                                        Margin="0,15,0,10"
+                                                        Background="#FF4A4A4A" />
+
+                                                    <TextBlock
+                                                        HorizontalAlignment="Right"
+                                                        FontSize="15"
+                                                        FontStyle="Italic"
+                                                        Foreground="#FFBBBBBB"
+                                                        Text="{Binding Garcon_Name, StringFormat={}Официант: {0}}" />
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                        </Grid>
+
+                    </controls:BlurryUserControl>
+                </Grid>
+            </TabItem>
+            <TabItem
+                Name="LoginTabItem"
+                IsSelected="True"
+                Visibility="Collapsed">
+                <Grid Margin="0,0,0,-22">
+
+                    <controls:BlurryUserControl
+                        Margin="-20"
+                        Panel.ZIndex="100"
+                        Background="Transparent"
+                        BlurContainer="{Binding ElementName=OuterBlurContainer}"
+                        BlurRadius="55"
+                        BorderBrush="#AF484848"
+                        BorderThickness="3"
+                        DragMoveEnabled="True">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100*" />
+                                <RowDefinition Height="12*" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                Grid.Column="0"
+                                Width="500"
+                                Height="600 "
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Background="#B6000000"
+                                Style="{StaticResource whiteBorder}">
+                                <Grid Margin="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <StackPanel Grid.Row="0" Margin="0,10">
+                                        <TextBlock
+                                            Margin="0,0,0,10"
+                                            HorizontalAlignment="Center"
+                                            FontSize="27"
+                                            Foreground="White"
+                                            Style="{StaticResource menuText}"
+                                            Text="Войдите с помощью код пароля" />
+                                        <PasswordBox
+                                            x:Name="PasswordBox"
+                                            BorderBrush="#7FFFFFFF"
+                                            FontSize="23"
+                                            Foreground="White" />
+                                    </StackPanel>
+
+                                    <Grid Grid.Row="1" Margin="0,20,0,0">
+
+                                        <UniformGrid
+                                            Grid.Column="0"
+                                            Columns="3"
+                                            Rows="4">
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="7"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="8"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="9"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="4"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="5"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="6"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="1"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="2"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="3"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Click="NumPad_Click"
+                                                Content="0"
+                                                Style="{StaticResource CircularButtonStyle}" />
+                                            <Button
+                                                Width="140"
+                                                Height="95"
+                                                Background="#CCB33C3C"
+                                                Click="Delete_Click"
+                                                Style="{StaticResource CircularButtonStyle}">
+                                                <Icon:PackIconMaterial
+                                                    Width="50"
+                                                    Height="50"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    Kind="BackspaceOutline"
+                                                    Style="{StaticResource menuButtonIcon}" />
+                                            </Button>
+                                            <Button
+                                                Grid.Row="1"
+                                                Width="140"
+                                                Height="95"
+                                                Background="#CC55B33C"
+                                                Click="Login_Click"
+                                                FontSize="18"
+                                                Style="{StaticResource CircularButtonStyle}">
+                                                <TextBlock
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontSize="30"
+                                                    Foreground="White"
+                                                    Style="{StaticResource menuText}"
+                                                    Text="Ввод" />
+                                            </Button>
+                                        </UniformGrid>
+
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                            <Border
+                                Grid.Row="1"
+                                Grid.Column="0"
+                                Width="1920"
+                                Height="70"
+                                Margin="0,0,0,38"
+                                Padding="0"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Bottom"
+                                Background="#B6000000"
+                                CornerRadius="0"
+                                Style="{StaticResource whiteBorder}">
+                                <Grid>
+                                    <TextBlock
+                                        Margin="0"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontSize="20"
+                                        Foreground="White"
+                                        Style="{StaticResource menuText}"
+                                        Text="Поддержка: 8 (800) 944 27 49" />
+                                    <TextBlock
+                                        Name="HardwareIDText"
+                                        Margin="0,0,20,0"
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Center"
+                                        FontSize="20"
+                                        Foreground="White"
+                                        Style="{StaticResource menuText}" />
+                                    <Icon:PackIconMaterial
+                                        Name="NetIcon"
+                                        Width="30"
+                                        Height="30"
+                                        Margin="20,0,0,0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        Foreground="White"
+                                        Kind="AccessPoint"
+                                        Style="{StaticResource menuButtonIcon}" />
+                                    <TextBlock
+                                        Name="DBInfoText"
+                                        Margin="60,0,0,0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        FontSize="20"
+                                        Foreground="White"
+                                        Style="{StaticResource menuText}" />
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </controls:BlurryUserControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

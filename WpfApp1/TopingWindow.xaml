@@ -1,0 +1,258 @@
+﻿<Window
+    x:Class="WpfApp1.TopingWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp1"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Cafe# Топпинги"
+    Width="800"
+    Height="550"
+    MinWidth="800"
+    MinHeight="500"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <TabControl>
+        <TabItem
+            FontFamily="Fonts/#Inter Bold"
+            Header="Добавить"
+            IsSelected="True">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <TextBlock
+                    Grid.Row="0"
+                    Margin="0,20,0,20"
+                    HorizontalAlignment="Center"
+                    FontSize="30"
+                    Style="{StaticResource menuText}"
+                    Text="Добавить новый топпинг" />
+
+                <TextBlock
+                    Grid.Row="1"
+                    Margin="0,0,0,5"
+                    HorizontalAlignment="Center"
+                    Style="{StaticResource menuText}"
+                    Text="Название" />
+                <TextBox
+                    Name="optionNameTextBox"
+                    Grid.Row="2"
+                    Width="350"
+                    Height="36"
+                    Margin="30,0,30,15"
+                    HorizontalAlignment="Stretch"
+                    FontFamily="Fonts/#Inter Regular"
+                    FontSize="22"
+                    Style="{StaticResource roundedTextBox}" />
+
+                <TextBlock
+                    Grid.Row="3"
+                    Margin="0,0,0,5"
+                    HorizontalAlignment="Center"
+                    Style="{StaticResource menuText}"
+                    Text="Тип" />
+                <Border
+                    Grid.Row="4"
+                    Width="350"
+                    Height="36"
+                    Margin="30,0,30,15"
+                    BorderBrush="#FFABADB3"
+                    BorderThickness="1"
+                    CornerRadius="10">
+                    <ComboBox
+                        Name="optionTypeComboBox"
+                        Margin="5,0,5,0"
+                        HorizontalAlignment="Stretch"
+                        FontFamily="Fonts/#Inter Regular"
+                        FontSize="22"
+                        IsEditable="True" />
+                </Border>
+
+                <TextBlock
+                    Grid.Row="5"
+                    Margin="0,0,0,5"
+                    HorizontalAlignment="Center"
+                    Style="{StaticResource menuText}"
+                    Text="Цена" />
+                <TextBox
+                    Name="optionPriceTextBox"
+                    Grid.Row="6"
+                    Width="350"
+                    Height="36"
+                    Margin="30,0,30,15"
+                    HorizontalAlignment="Stretch"
+                    FontFamily="Fonts/#Inter Regular"
+                    FontSize="22"
+                    Style="{StaticResource roundedTextBox}"
+                    Text="0" />
+                <StackPanel
+                    Grid.Row="7"
+                    Margin="-200,0,0,0"
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        Style="{StaticResource menuText}"
+                        Text="Активен" />
+                    <Border
+                        Grid.Row="5"
+                        Margin="10,0,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="Gainsboro"
+                        CornerRadius="5">
+                        <CheckBox Name="isActiveCheckBox" IsChecked="True">
+                            <CheckBox.LayoutTransform>
+                                <ScaleTransform ScaleX="1.6" ScaleY="1.6" />
+                            </CheckBox.LayoutTransform>
+                        </CheckBox>
+                    </Border>
+
+                </StackPanel>
+
+                <StackPanel
+                    Grid.Row="7"
+                    Margin="150,0,0,0"
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        Style="{StaticResource menuText}"
+                        Text="Обязательный" />
+                    <Border
+                        Grid.Row="5"
+                        Margin="10,0,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="Gainsboro"
+                        CornerRadius="5">
+                        <CheckBox Name="isImportantCheckBox" IsChecked="False">
+                            <CheckBox.LayoutTransform>
+                                <ScaleTransform ScaleX="1.6" ScaleY="1.6" />
+                            </CheckBox.LayoutTransform>
+                        </CheckBox>
+                    </Border>
+
+                </StackPanel>
+
+                <Button
+                    Name="addToppingButton"
+                    Grid.Row="9"
+                    Width="250"
+                    Height="40"
+                    Margin="0,20,0,20"
+                    HorizontalAlignment="Center"
+                    Click="AddTopping_Click"
+                    Cursor="Hand"
+                    Style="{StaticResource menuDialogButtonGreen}">
+                    <TextBlock
+                        Style="{StaticResource menuButtonText}"
+                        Text="Добавить"
+                        TextAlignment="Center" />
+                </Button>
+            </Grid>
+        </TabItem>
+        <TabItem FontFamily="Fonts/#Inter Bold" Header="Дополнительно">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="7*" />
+                </Grid.RowDefinitions>
+
+                <TextBlock
+                    Grid.Row="0"
+                    Margin="0,10,0,0"
+                    HorizontalAlignment="Center"
+                    FontSize="30"
+                    Style="{StaticResource menuText}"
+                    Text="Управление топпингами" />
+
+                <Border
+                    Grid.Row="1" 
+                    Margin="20,0,20,10"
+                    Background="White"
+                    BorderBrush="LightGray"
+                    BorderThickness="1"
+                    CornerRadius="8">
+                    <StackPanel>
+                        <TextBlock
+                            Margin="10,10,10,5"
+                            FontSize="20"
+                            Style="{StaticResource menuText}"
+                            Text="Список всех топпингов:" />
+                        <ListBox
+                            Name="toppingsListBox"
+                            Height="300"
+                            Margin="10,0,10,10"
+                            HorizontalContentAlignment="Stretch"
+                            Foreground="#E5000000">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock
+                                            Grid.Column="0"
+                                            Margin="0,0,10,0"
+                                            VerticalAlignment="Center"
+                                            FontSize="16"
+                                            Text="{Binding Option_Name}" />
+                                        <TextBlock
+                                            Grid.Column="1"
+                                            Margin="0,0,10,0"
+                                            VerticalAlignment="Center"
+                                            FontSize="16"
+                                            Text="{Binding Option_Type, StringFormat='({0})'}" />
+                                        <TextBlock
+                                            Grid.Column="2"
+                                            Margin="0,0,10,0"
+                                            VerticalAlignment="Center"
+                                            FontSize="16"
+                                            Text="{Binding Option_Price, StringFormat='{}{0:F2} руб.'}" />
+                                        <TextBlock
+                                            Grid.Column="3"
+                                            Margin="0,0,10,0"
+                                            VerticalAlignment="Center"
+                                            FontSize="16" />
+                                        <Button
+                                            Grid.Column="4"
+                                            Width="50"
+                                            Height="40"
+                                            Click="RemoveTopping_Click"
+                                            Style="{StaticResource menuDialogButtonOrange}"
+                                            Tag="{Binding Option_ID}">
+                                            <Icon:PackIconMaterial
+                                                Margin="0"
+                                                HorizontalAlignment="Center"
+                                                Kind="TrashCanOutline"
+                                                Style="{StaticResource menuButtonIcon}" />
+                                        </Button>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

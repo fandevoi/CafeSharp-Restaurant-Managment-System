@@ -1,0 +1,12 @@
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\UserControls\InfoCard.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\UserControls\Legends.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\UserControls\UserCard.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\MainWindow.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\UserControls\InfoCard.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\UserControls\Legends.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\UserControls\UserCard.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\App.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\x86\Debug\WpfApp1_MarkupCompile.lref

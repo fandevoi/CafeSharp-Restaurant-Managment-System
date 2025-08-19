@@ -1,0 +1,1559 @@
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fande\source\repos\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\Report.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\App.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\Report.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+E:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\Report.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\App.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\Report.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+K:\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\Report.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\Report.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Дед ковбой\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\fande\Desktop\Практика Ноябрь\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\App.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\Report.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+E:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\Report.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Практика Ноябрь\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\App.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\Report.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+K:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\EnvDTE.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\stdole.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\Report.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Практика Ноябрь\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.MSXML.dll
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\fande\Desktop\Диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Cryptography.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\K4os.Hash.xxHash.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\NuGet.Frameworks.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\QRCoder.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.IO.Pipelines.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ZstdSharp.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\LiveCharts.Wpf.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Common.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GarconWindow.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\loginPage.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\Report.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesReservations.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\Legends.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\UserControls\table1.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\GarconWindow.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\loginPage.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuEditWindow.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\menuPrintWindow.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\Report.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesEditTable.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\tablesReservations.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\SharpVectors.Converters.Wpf.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\SharpVectors.Core.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\SharpVectors.Css.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\SharpVectors.Dom.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\SharpVectors.Model.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\SharpVectors.Rendering.Gdi.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\SharpVectors.Rendering.Wpf.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\SharpVectors.Runtime.Wpf.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\BlurryControls.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\HandyControl.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\HandyControl.pdb
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\KitchenWindow.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\KitchenWindow.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\TopingWindow.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\TopingWindow.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\bin\Debug\itextsharp.dll
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\StopListWindow.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\StopListWindow.baml
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\MainLoginWindow.g.cs
+D:\FlashExport\Флешка\01.03.2025 Бэкапы\Мой диплом\WpfApp1\WpfApp1\obj\Debug\MainLoginWindow.baml

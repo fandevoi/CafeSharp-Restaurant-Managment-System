@@ -1,0 +1,398 @@
+﻿<Window
+    x:Class="WpfApp1.tablesReservations"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:converters="clr-namespace:WpfApp1.Services.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp1"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Cafe# Бронирование"
+    MinWidth="900"
+    MinHeight="610"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid Background="#FFECECF0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*" />
+            <ColumnDefinition Width="50*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="10,10,5,10">
+            <Border
+                Height="544"
+                Padding="0"
+                Style="{StaticResource whiteBorder}">
+                <StackPanel>
+                    <TextBlock
+                        Margin="0,10,0,10"
+                        Style="{StaticResource menuText}"
+                        Text="Брони по дате"
+                        TextAlignment="Center" />
+                    <DatePicker
+                        Name="datePicker"
+                        Width="390"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        SelectedDateChanged="datePicker_SelectedDateChanged"
+                        SelectedDateFormat="Short" />
+                    <DataGrid
+                        Name="reservationsGrid"
+                        Height="468"
+                        Margin="10"
+                        AlternatingRowBackground="White"
+                        AutoGenerateColumns="False"
+                        Background="White"
+                        BorderBrush="White"
+                        CanUserAddRows="False"
+                        CanUserDeleteRows="False"
+                        CanUserSortColumns="False"
+                        Foreground="Black"
+                        HorizontalGridLinesBrush="Black"
+                        IsReadOnly="True"
+                        RowBackground="White"
+                        SelectionChanged="reservationsGrid_SelectionChanged"
+                        Visibility="Visible">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn
+                                Width="auto"
+                                Binding="{Binding Path=Reservation_ID}"
+                                Header="ID">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="{Binding Path='Reservation_Status', Converter={converters:StatusToBrushConverter}}" />
+                                        <Setter Property="FontFamily" Value="Fonts/#Inter Regular" />
+                                        <Setter Property="TextAlignment" Value="Center" />
+                                        <Setter Property="FontSize" Value="16" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn
+                                Width="auto"
+                                Binding="{Binding Path=Reservation_Table}"
+                                Header="Столик">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="{Binding Path='Reservation_Status', Converter={converters:StatusToBrushConverter}}" />
+                                        <Setter Property="FontFamily" Value="Fonts/#Inter Regular" />
+                                        <Setter Property="TextAlignment" Value="Center" />
+                                        <Setter Property="FontSize" Value="16" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn
+                                Width="auto"
+                                Binding="{Binding Path=Reservation_Time}"
+                                Header="Время">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="{Binding Path='Reservation_Status', Converter={converters:StatusToBrushConverter}}" />
+                                        <Setter Property="FontFamily" Value="Fonts/#Inter Regular" />
+                                        <Setter Property="TextAlignment" Value="Center" />
+                                        <Setter Property="FontSize" Value="16" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn
+                                Width="auto"
+                                Binding="{Binding Path=Reservation_Customer}"
+                                Header="Посетитель">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="{Binding Path='Reservation_Status', Converter={converters:StatusToBrushConverter}}" />
+                                        <Setter Property="FontFamily" Value="Fonts/#Inter Regular" />
+                                        <Setter Property="TextAlignment" Value="Center" />
+                                        <Setter Property="FontSize" Value="16" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn
+                                Width="auto"
+                                Binding="{Binding Path=Reservation_Phone}"
+                                Header="Телефон">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="{Binding Path='Reservation_Status', Converter={converters:StatusToBrushConverter}}" />
+                                        <Setter Property="FontFamily" Value="Fonts/#Inter Regular" />
+                                        <Setter Property="TextAlignment" Value="Center" />
+                                        <Setter Property="FontSize" Value="16" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="5,10,10,10">
+            <Border
+                Height="544"
+                Padding="0"
+                Style="{StaticResource whiteBorder}">
+                <TabControl>
+                    <TabItem Header="Изменение">
+                        <StackPanel>
+                            <TextBlock
+                                Margin="0,10,0,10"
+                                Style="{StaticResource menuText}"
+                                Text="Изменить бронь"
+                                TextAlignment="Center" />
+                            <TextBlock
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="№ Столика" />
+                            <ComboBox
+                                Name="tableComboBox"
+                                Width="330"
+                                Height="30"
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                Style="{StaticResource roundedComboBox}">
+                                <ComboBoxItem>1</ComboBoxItem>
+                                <ComboBoxItem>2</ComboBoxItem>
+                                <ComboBoxItem>3</ComboBoxItem>
+                                <ComboBoxItem>4</ComboBoxItem>
+                                <ComboBoxItem>5</ComboBoxItem>
+                                <ComboBoxItem>6</ComboBoxItem>
+                                <ComboBoxItem>7</ComboBoxItem>
+                                <ComboBoxItem>8</ComboBoxItem>
+                                <ComboBoxItem>9</ComboBoxItem>
+                                <ComboBoxItem>10</ComboBoxItem>
+                                <ComboBoxItem>11</ComboBoxItem>
+                                <ComboBoxItem>12</ComboBoxItem>
+                                <ComboBoxItem>13</ComboBoxItem>
+                                <ComboBoxItem>14</ComboBoxItem>
+                                <ComboBoxItem>15</ComboBoxItem>
+                                <ComboBoxItem>16</ComboBoxItem>
+                            </ComboBox>
+                            <TextBlock
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Посетитель" />
+                            <TextBox
+                                Name="customerTextBox"
+                                Width="330"
+                                Height="30"
+                                Margin="10"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                Style="{StaticResource roundedTextBox}" />
+
+                            <TextBlock
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Контактный телефон" />
+                            <TextBox
+                                Name="phoneTextBox"
+                                Width="330"
+                                Height="30"
+                                Margin="10"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                Style="{StaticResource roundedTextBox}"
+                                TextChanged="phoneTextBox_TextChanged" />
+
+                            <TextBlock
+                                Margin="-160,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Начало брони" />
+                            <TextBlock
+                                Margin="160,-25,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Конец" />
+                            <ComboBox
+                                Name="timeStartComboBox"
+                                Width="160"
+                                Height="30"
+                                Margin="-171,10,0,10"
+                                HorizontalAlignment="Center"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                SelectionChanged="timeStartComboBox_SelectionChanged"
+                                Style="{StaticResource roundedComboBox}" />
+                            <ComboBox
+                                Name="timeEndComboBox"
+                                Width="160"
+                                Height="30"
+                                Margin="171,-50,0,0"
+                                HorizontalAlignment="Center"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                Style="{StaticResource roundedComboBox}" />
+                            <TextBlock
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Статус брони" />
+                            <RadioButton
+                                Name="statusRadioButton1"
+                                Margin="-176,10,0,0"
+                                HorizontalAlignment="Center"
+                                Content="Активна"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20" />
+                            <RadioButton
+                                Name="statusRadioButton2"
+                                Margin="176,-23,0,0"
+                                HorizontalAlignment="Center"
+                                Content="Закрыта"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20" />
+                            <Button
+                                Name="updateButton"
+                                Width="120"
+                                Height="33"
+                                Margin="0,10,0,0"
+                                Click="updateButton_Click"
+                                Cursor="Hand"
+                                Style="{StaticResource menuDialogButtonGreen}">
+                                <TextBlock
+                                    Margin="10,0,10,0"
+                                    Style="{StaticResource menuButtonText}"
+                                    Text="Изменить"
+                                    TextAlignment="Center" />
+                            </Button>
+                            <Button
+                                Name="deleteButton"
+                                Width="40"
+                                Height="33"
+                                Margin="190,-33,0,0"
+                                Click="deleteButton_Click"
+                                Cursor="Hand"
+                                Style="{StaticResource menuDialogButtonOrange}">
+                                <Icon:PackIconMaterial
+                                    Margin="0,0,0,0"
+                                    HorizontalAlignment="Center"
+                                    Kind="Delete"
+                                    Style="{StaticResource menuButtonIcon}" />
+                            </Button>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Добавление">
+                        <StackPanel>
+                            <TextBlock
+                                Margin="0,10,0,10"
+                                Style="{StaticResource menuText}"
+                                Text="Добавить бронь"
+                                TextAlignment="Center" />
+                            <TextBlock
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="№ Столика" />
+                            <ComboBox
+                                Name="addComboBox"
+                                Width="330"
+                                Height="30"
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                Style="{StaticResource roundedComboBox}">
+                                <ComboBoxItem>1</ComboBoxItem>
+                                <ComboBoxItem>2</ComboBoxItem>
+                                <ComboBoxItem>3</ComboBoxItem>
+                                <ComboBoxItem>4</ComboBoxItem>
+                                <ComboBoxItem>5</ComboBoxItem>
+                                <ComboBoxItem>6</ComboBoxItem>
+                                <ComboBoxItem>7</ComboBoxItem>
+                                <ComboBoxItem>8</ComboBoxItem>
+                                <ComboBoxItem>9</ComboBoxItem>
+                                <ComboBoxItem>10</ComboBoxItem>
+                            </ComboBox>
+                            <TextBlock
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Посетитель" />
+                            <TextBox
+                                Name="addCustomerTextBox"
+                                Width="330"
+                                Height="30"
+                                Margin="10"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                Style="{StaticResource roundedTextBox}" />
+
+                            <TextBlock
+                                Margin="0,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Контактный телефон" />
+                            <TextBox
+                                Name="addPhoneTextBox"
+                                Width="330"
+                                Height="30"
+                                Margin="10"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                Style="{StaticResource roundedTextBox}"
+                                TextChanged="phoneTextBox_TextChanged" />
+
+                            <TextBlock
+                                Margin="-160,10,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Начало брони" />
+                            <TextBlock
+                                Margin="160,-25,0,0"
+                                HorizontalAlignment="Center"
+                                FontSize="21"
+                                Style="{StaticResource menuText}"
+                                Text="Конец" />
+                            <ComboBox
+                                Name="addTimeStartComboBox"
+                                Width="160"
+                                Height="30"
+                                Margin="-171,10,0,10"
+                                HorizontalAlignment="Center"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                SelectionChanged="timeStartComboBox_SelectionChanged"
+                                Style="{StaticResource roundedComboBox}" />
+                            <ComboBox
+                                Name="addTimeEndComboBox"
+                                Width="160"
+                                Height="30"
+                                Margin="171,-50,0,0"
+                                HorizontalAlignment="Center"
+                                FontFamily="Fonts/#Inter Regular"
+                                FontSize="20"
+                                Style="{StaticResource roundedComboBox}" />
+                            <Button
+                                Name="addButton"
+                                Width="120"
+                                Height="33"
+                                Margin="0,30,0,0"
+                                Click="addButton_Click"
+                                Cursor="Hand"
+                                Style="{StaticResource menuDialogButtonGreen}">
+                                <TextBlock
+                                    Margin="10,0,10,0"
+                                    Style="{StaticResource menuButtonText}"
+                                    Text="Добавить"
+                                    TextAlignment="Center" />
+                            </Button>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
