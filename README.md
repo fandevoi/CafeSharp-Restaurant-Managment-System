@@ -1,6 +1,6 @@
 # CafeSharp-Restaurant-Managment-System
 ## Скриншоты интерфейса
-![Скриншот] (https://github.com/fandevoi/CafeSharp-Restaurant-Managment-System/blob/main/WpfApp1/Images/Screenshots/2.png)
+![Скриншот](https://github.com/fandevoi/CafeSharp-Restaurant-Managment-System/blob/main/WpfApp1/Images/Screenshots/2.png)
 ![Скриншот] (https://github.com/fandevoi/CafeSharp-Restaurant-Managment-System/blob/main/WpfApp1/Images/Screenshots/3.png)
 ![Скриншот] (https://github.com/fandevoi/CafeSharp-Restaurant-Managment-System/blob/main/WpfApp1/Images/Screenshots/4.png)
 ![Скриншот] (https://github.com/fandevoi/CafeSharp-Restaurant-Managment-System/blob/main/WpfApp1/Images/Screenshots/5.png)
